@@ -2,14 +2,24 @@
 
 로컬 우선 Markdown 메모 앱 inLoco의 정식 배포 저장소입니다.
 
-## 최신 버전 · 4.0.0
+## 최신 버전 · 4.1.0
 
-- [Windows Setup](https://github.com/tystarme/inLoco_release/releases/download/v4.0.0/inLoco-Setup-4.0.0.exe)
-- [Android APK](https://github.com/tystarme/inLoco_release/releases/download/v4.0.0/inLoco-4.0.0-release.apk)
+- [Windows Setup](https://github.com/tystarme/inLoco_release/releases/download/v4.1.0/inLoco-Setup-4.1.0.exe)
+- [Android APK](https://github.com/tystarme/inLoco_release/releases/download/v4.1.0/inLoco-4.1.0-release.apk)
 
 ## 릴리스 기록
 
 <!-- INLOCO_RELEASES_START -->
+<!-- INLOCO_RELEASE:4.1.0:START -->
+### inLoco 4.1.0
+
+- [Windows Setup](https://github.com/tystarme/inLoco_release/releases/download/v4.1.0/inLoco-Setup-4.1.0.exe)
+- [Android APK](https://github.com/tystarme/inLoco_release/releases/download/v4.1.0/inLoco-4.1.0-release.apk)
+
+- 각 탭이 편집 중인 본문·커서·보기 모드와 읽기·편집·스플릿 스크롤 위치를 독립적으로 유지합니다.
+- 탭을 옮기거나 다른 메모를 열 때 미저장 경고 없이 작업 상태를 보존하고, 탭 닫기·vault 전환·앱 종료 시에만 저장 여부를 확인합니다.
+<!-- INLOCO_RELEASE:4.1.0:END -->
+
 <!-- INLOCO_RELEASE:4.0.0:START -->
 ### inLoco 4.0.0
 
