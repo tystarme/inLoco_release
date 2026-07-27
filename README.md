@@ -2,14 +2,27 @@
 
 로컬 우선 Markdown 메모 앱 inLoco의 정식 배포 저장소입니다.
 
-## 최신 버전 · 4.1.0
+## 최신 버전 · 4.2.0
 
-- [Windows Setup](https://github.com/tystarme/inLoco_release/releases/download/v4.1.0/inLoco-Setup-4.1.0.exe)
-- [Android APK](https://github.com/tystarme/inLoco_release/releases/download/v4.1.0/inLoco-4.1.0-release.apk)
+- [Windows Setup](https://github.com/tystarme/inLoco_release/releases/download/v4.2.0/inLoco-Setup-4.2.0.exe)
+- [Android APK](https://github.com/tystarme/inLoco_release/releases/download/v4.2.0/inLoco-4.2.0-release.apk)
 
 ## 릴리스 기록
 
 <!-- INLOCO_RELEASES_START -->
+<!-- INLOCO_RELEASE:4.2.0:START -->
+### inLoco 4.2.0
+
+- [Windows Setup](https://github.com/tystarme/inLoco_release/releases/download/v4.2.0/inLoco-Setup-4.2.0.exe)
+- [Android APK](https://github.com/tystarme/inLoco_release/releases/download/v4.2.0/inLoco-4.2.0-release.apk)
+
+- `**강조**한글`처럼 한글과 붙은 강조가 더 선명한 굵기로 표시됩니다.
+- 불릿·숫자·중첩·CRLF 체크리스트가 체크박스로 렌더되고 클릭으로 정확히 토글됩니다.
+- 숫자 목록 중간 항목을 추가하거나 삭제하면 아래 번호가 자동으로 다시 정렬됩니다.
+- PDF 인용구 안의 문단·목록·체크박스·표·수식·코드가 구조를 유지해 출력됩니다.
+- 탭이 많아지면 너비를 줄인 뒤 가로 스크롤로 전환되며, drag & drop으로 탭 순서를 바꿀 수 있습니다.
+<!-- INLOCO_RELEASE:4.2.0:END -->
+
 <!-- INLOCO_RELEASE:4.1.0:START -->
 ### inLoco 4.1.0
 
