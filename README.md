@@ -2,14 +2,25 @@
 
 로컬 우선 Markdown 메모 앱 inLoco의 정식 배포 저장소입니다.
 
-## 최신 버전 · 4.2.0
+## 최신 버전 · 4.3.0
 
-- [Windows Setup](https://github.com/tystarme/inLoco_release/releases/download/v4.2.0/inLoco-Setup-4.2.0.exe)
-- [Android APK](https://github.com/tystarme/inLoco_release/releases/download/v4.2.0/inLoco-4.2.0-release.apk)
+- [Windows Setup](https://github.com/tystarme/inLoco_release/releases/download/v4.3.0/inLoco-Setup-4.3.0.exe)
+- [Android APK](https://github.com/tystarme/inLoco_release/releases/download/v4.3.0/inLoco-4.3.0-release.apk)
 
 ## 릴리스 기록
 
 <!-- INLOCO_RELEASES_START -->
+<!-- INLOCO_RELEASE:4.3.0:START -->
+### inLoco 4.3.0
+
+- [Windows Setup](https://github.com/tystarme/inLoco_release/releases/download/v4.3.0/inLoco-Setup-4.3.0.exe)
+- [Android APK](https://github.com/tystarme/inLoco_release/releases/download/v4.3.0/inLoco-4.3.0-release.apk)
+
+- 표준 `- [ ]` 한글 체크리스트를 일반 불릿보다 먼저 판정해 항상 체크박스로 렌더합니다.
+- 스플릿 뷰에서 읽기 모드로 전환해도 오른쪽 렌더 페이지의 스크롤 위치를 유지합니다.
+- `**강조**한글`은 본문 글꼴을 그대로 사용하고 굵기만 자연스러운 bold로 표시합니다.
+<!-- INLOCO_RELEASE:4.3.0:END -->
+
 <!-- INLOCO_RELEASE:4.2.0:START -->
 ### inLoco 4.2.0
 
