@@ -2,14 +2,25 @@
 
 로컬 우선 Markdown 메모 앱 inLoco의 정식 배포 저장소입니다.
 
-## 최신 버전 · 4.6.0
+## 최신 버전 · 4.7.0
 
-- [Windows Setup](https://github.com/tystarme/inLoco_release/releases/download/v4.6.0/inLoco-Setup-4.6.0.exe)
-- [Android APK](https://github.com/tystarme/inLoco_release/releases/download/v4.6.0/inLoco-4.6.0-release.apk)
+- [Windows Setup](https://github.com/tystarme/inLoco_release/releases/download/v4.7.0/inLoco-Setup-4.7.0.exe)
+- [Android APK](https://github.com/tystarme/inLoco_release/releases/download/v4.7.0/inLoco-4.7.0-release.apk)
 
 ## 릴리스 기록
 
 <!-- INLOCO_RELEASES_START -->
+<!-- INLOCO_RELEASE:4.7.0:START -->
+### inLoco 4.7.0
+
+- [Windows Setup](https://github.com/tystarme/inLoco_release/releases/download/v4.7.0/inLoco-Setup-4.7.0.exe)
+- [Android APK](https://github.com/tystarme/inLoco_release/releases/download/v4.7.0/inLoco-4.7.0-release.apk)
+
+- `## 제목 {toggle}`과 `- 항목 {toggle}` 문법으로 하위 내용을 접고 펼칠 수 있으며 상태는 원문과 분리해 문서별로 유지합니다.
+- 렌더된 표의 헤더 메뉴에서 열 기준 오름차순·내림차순 정렬을 실행하면 본문 행만 안정 정렬해 Markdown 원문에 반영합니다.
+- 표 열 경계를 드래그해 너비를 바꿀 수 있고 결과는 기존 `:::wide widths=…` 문법에 저장됩니다.
+<!-- INLOCO_RELEASE:4.7.0:END -->
+
 <!-- INLOCO_RELEASE:4.6.0:START -->
 ### inLoco 4.6.0
 
