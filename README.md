@@ -2,14 +2,24 @@
 
 로컬 우선 Markdown 메모 앱 inLoco의 정식 배포 저장소입니다.
 
-## 최신 버전 · 4.3.0
+## 최신 버전 · 4.4.0
 
-- [Windows Setup](https://github.com/tystarme/inLoco_release/releases/download/v4.3.0/inLoco-Setup-4.3.0.exe)
-- [Android APK](https://github.com/tystarme/inLoco_release/releases/download/v4.3.0/inLoco-4.3.0-release.apk)
+- [Windows Setup](https://github.com/tystarme/inLoco_release/releases/download/v4.4.0/inLoco-Setup-4.4.0.exe)
+- [Android APK](https://github.com/tystarme/inLoco_release/releases/download/v4.4.0/inLoco-4.4.0-release.apk)
 
 ## 릴리스 기록
 
 <!-- INLOCO_RELEASES_START -->
+<!-- INLOCO_RELEASE:4.4.0:START -->
+### inLoco 4.4.0
+
+- [Windows Setup](https://github.com/tystarme/inLoco_release/releases/download/v4.4.0/inLoco-Setup-4.4.0.exe)
+- [Android APK](https://github.com/tystarme/inLoco_release/releases/download/v4.4.0/inLoco-4.4.0-release.apk)
+
+- 점프 리스트로 서버용 vault를 열어도 정규화된 vault 식별자로 기존 서버 연결을 복원하고 시작 동기화를 실행합니다.
+- Windows에서 동기화 중 창 닫기 또는 Alt+F4를 누르면 완료를 기다리거나 강제 종료할지 확인합니다.
+<!-- INLOCO_RELEASE:4.4.0:END -->
+
 <!-- INLOCO_RELEASE:4.3.0:START -->
 ### inLoco 4.3.0
 
