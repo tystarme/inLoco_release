@@ -2,14 +2,25 @@
 
 로컬 우선 Markdown 메모 앱 inLoco의 정식 배포 저장소입니다.
 
-## 최신 버전 · 4.7.0
+## 최신 버전 · 4.8.0
 
-- [Windows Setup](https://github.com/tystarme/inLoco_release/releases/download/v4.7.0/inLoco-Setup-4.7.0.exe)
-- [Android APK](https://github.com/tystarme/inLoco_release/releases/download/v4.7.0/inLoco-4.7.0-release.apk)
+- [Windows Setup](https://github.com/tystarme/inLoco_release/releases/download/v4.8.0/inLoco-Setup-4.8.0.exe)
+- [Android APK](https://github.com/tystarme/inLoco_release/releases/download/v4.8.0/inLoco-4.8.0-release.apk)
 
 ## 릴리스 기록
 
 <!-- INLOCO_RELEASES_START -->
+<!-- INLOCO_RELEASE:4.8.0:START -->
+### inLoco 4.8.0
+
+- [Windows Setup](https://github.com/tystarme/inLoco_release/releases/download/v4.8.0/inLoco-Setup-4.8.0.exe)
+- [Android APK](https://github.com/tystarme/inLoco_release/releases/download/v4.8.0/inLoco-4.8.0-release.apk)
+
+- Android에서 현재 화면 해상도가 지원하는 가장 높은 주사율을 앱 창의 선호 주사율로 요청합니다.
+- 모바일 목록과 편집 화면의 다시 그리기 영역을 분리해 스크롤·커서 이동 시 불필요한 전체 repaint를 줄였습니다.
+- Android profile 빌드에서 읽기·편집·스플릿별 프레임 p95와 120Hz 기준 초과율을 기록하는 성능 계측을 추가했습니다.
+<!-- INLOCO_RELEASE:4.8.0:END -->
+
 <!-- INLOCO_RELEASE:4.7.0:START -->
 ### inLoco 4.7.0
 
