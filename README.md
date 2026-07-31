@@ -2,14 +2,25 @@
 
 로컬 우선 Markdown 메모 앱 inLoco의 정식 배포 저장소입니다.
 
-## 최신 버전 · 4.4.0
+## 최신 버전 · 4.5.0
 
-- [Windows Setup](https://github.com/tystarme/inLoco_release/releases/download/v4.4.0/inLoco-Setup-4.4.0.exe)
-- [Android APK](https://github.com/tystarme/inLoco_release/releases/download/v4.4.0/inLoco-4.4.0-release.apk)
+- [Windows Setup](https://github.com/tystarme/inLoco_release/releases/download/v4.5.0/inLoco-Setup-4.5.0.exe)
+- [Android APK](https://github.com/tystarme/inLoco_release/releases/download/v4.5.0/inLoco-4.5.0-release.apk)
 
 ## 릴리스 기록
 
 <!-- INLOCO_RELEASES_START -->
+<!-- INLOCO_RELEASE:4.5.0:START -->
+### inLoco 4.5.0
+
+- [Windows Setup](https://github.com/tystarme/inLoco_release/releases/download/v4.5.0/inLoco-Setup-4.5.0.exe)
+- [Android APK](https://github.com/tystarme/inLoco_release/releases/download/v4.5.0/inLoco-4.5.0-release.apk)
+
+- `:::wide`와 `:::` 사이의 표 또는 블록 수식을 읽기·스플릿 pane 전체 너비로 렌더합니다.
+- 읽기·스플릿 화면의 본문 여백에서도 휠 스크롤이 작동하고 세로 스크롤바를 pane 최우측에 표시합니다.
+- 스플릿에서 편집기와 렌더 어느 쪽에 커서를 두고 Ctrl+휠을 사용해도 양쪽 배율을 함께 변경합니다.
+<!-- INLOCO_RELEASE:4.5.0:END -->
+
 <!-- INLOCO_RELEASE:4.4.0:START -->
 ### inLoco 4.4.0
 
