@@ -2,14 +2,25 @@
 
 로컬 우선 Markdown 메모 앱 inLoco의 정식 배포 저장소입니다.
 
-## 최신 버전 · 4.8.0
+## 최신 버전 · 4.9.0
 
-- [Windows Setup](https://github.com/tystarme/inLoco_release/releases/download/v4.8.0/inLoco-Setup-4.8.0.exe)
-- [Android APK](https://github.com/tystarme/inLoco_release/releases/download/v4.8.0/inLoco-4.8.0-release.apk)
+- [Windows Setup](https://github.com/tystarme/inLoco_release/releases/download/v4.9.0/inLoco-Setup-4.9.0.exe)
+- [Android APK](https://github.com/tystarme/inLoco_release/releases/download/v4.9.0/inLoco-4.9.0-release.apk)
 
 ## 릴리스 기록
 
 <!-- INLOCO_RELEASES_START -->
+<!-- INLOCO_RELEASE:4.9.0:START -->
+### inLoco 4.9.0
+
+- [Windows Setup](https://github.com/tystarme/inLoco_release/releases/download/v4.9.0/inLoco-Setup-4.9.0.exe)
+- [Android APK](https://github.com/tystarme/inLoco_release/releases/download/v4.9.0/inLoco-4.9.0-release.apk)
+
+- 너비 문법이 없는 기존 표는 페이지 본문 너비를 채우는 기본 렌더링을 유지하고, widths 문법을 사용한 표만 열 너비 조절 UI를 표시합니다.
+- 너비 조절형 표가 페이지보다 좁을 때 가운데에 배치되며 마지막 열의 오른쪽 경계도 드래그할 수 있습니다.
+- 읽기·스플릿 렌더에서 변경한 표 너비와 정렬을 Ctrl+Z로 되돌리고 Ctrl+Shift+Z 또는 Ctrl+Y로 다시 적용할 수 있습니다.
+<!-- INLOCO_RELEASE:4.9.0:END -->
+
 <!-- INLOCO_RELEASE:4.8.0:START -->
 ### inLoco 4.8.0
 
