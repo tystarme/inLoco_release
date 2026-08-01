@@ -2,14 +2,25 @@
 
 로컬 우선 Markdown 메모 앱 inLoco의 정식 배포 저장소입니다.
 
-## 최신 버전 · 4.9.0
+## 최신 버전 · 4.10.0
 
-- [Windows Setup](https://github.com/tystarme/inLoco_release/releases/download/v4.9.0/inLoco-Setup-4.9.0.exe)
-- [Android APK](https://github.com/tystarme/inLoco_release/releases/download/v4.9.0/inLoco-4.9.0-release.apk)
+- [Windows Setup](https://github.com/tystarme/inLoco_release/releases/download/v4.10.0/inLoco-Setup-4.10.0.exe)
+- [Android APK](https://github.com/tystarme/inLoco_release/releases/download/v4.10.0/inLoco-4.10.0-release.apk)
 
 ## 릴리스 기록
 
 <!-- INLOCO_RELEASES_START -->
+<!-- INLOCO_RELEASE:4.10.0:START -->
+### inLoco 4.10.0
+
+- [Windows Setup](https://github.com/tystarme/inLoco_release/releases/download/v4.10.0/inLoco-Setup-4.10.0.exe)
+- [Android APK](https://github.com/tystarme/inLoco_release/releases/download/v4.10.0/inLoco-4.10.0-release.apk)
+
+- 설정의 테마 색 팔레트에 순백 프리셋을 추가했습니다.
+- 순백 프리셋과 라이트 모드를 함께 사용하면 앱 화면과 편집 WebView 배경을 정확한 #FFFFFF로 표시합니다.
+- 흰색 테마 스와치를 선택해도 선택 표시가 잘 보이도록 검은색 체크 아이콘을 사용합니다.
+<!-- INLOCO_RELEASE:4.10.0:END -->
+
 <!-- INLOCO_RELEASE:4.9.0:START -->
 ### inLoco 4.9.0
 
