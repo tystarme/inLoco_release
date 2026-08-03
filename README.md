@@ -2,14 +2,25 @@
 
 로컬 우선 Markdown 메모 앱 inLoco의 정식 배포 저장소입니다.
 
-## 최신 버전 · 4.10.0
+## 최신 버전 · 4.11.0
 
-- [Windows Setup](https://github.com/tystarme/inLoco_release/releases/download/v4.10.0/inLoco-Setup-4.10.0.exe)
-- [Android APK](https://github.com/tystarme/inLoco_release/releases/download/v4.10.0/inLoco-4.10.0-release.apk)
+- [Windows Setup](https://github.com/tystarme/inLoco_release/releases/download/v4.11.0/inLoco-Setup-4.11.0.exe)
+- [Android APK](https://github.com/tystarme/inLoco_release/releases/download/v4.11.0/inLoco-4.11.0-release.apk)
 
 ## 릴리스 기록
 
 <!-- INLOCO_RELEASES_START -->
+<!-- INLOCO_RELEASE:4.11.0:START -->
+### inLoco 4.11.0
+
+- [Windows Setup](https://github.com/tystarme/inLoco_release/releases/download/v4.11.0/inLoco-Setup-4.11.0.exe)
+- [Android APK](https://github.com/tystarme/inLoco_release/releases/download/v4.11.0/inLoco-4.11.0-release.apk)
+
+- 최근 vault 점프 리스트로 앱을 시작할 때 로그인 세션 복원이 끝난 뒤 첫 동기화를 실행하도록 수정했습니다.
+- 서로 다른 로컬·서버 vault의 동기화 이력이 섞이지 않도록 vault 조합별 데이터베이스로 분리했습니다.
+- 세션 복원이 지연되면 만료된 로그인 정보로 동기화를 강행하지 않고 안전하게 건너뛰도록 보강했습니다.
+<!-- INLOCO_RELEASE:4.11.0:END -->
+
 <!-- INLOCO_RELEASE:4.10.0:START -->
 ### inLoco 4.10.0
 
