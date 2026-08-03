@@ -16,8 +16,9 @@
 - [Windows Setup](https://github.com/tystarme/inLoco_release/releases/download/v4.12.0/inLoco-Setup-4.12.0.exe)
 - [Android APK](https://github.com/tystarme/inLoco_release/releases/download/v4.12.0/inLoco-4.12.0-release.apk)
 
-- 최근 vault 점프 리스트로 실행해도 동기화 DB를 설치 폴더가 아닌 사용자 AppData 앱 지원 폴더에서 열도록 수정했습니다.
-- 동기화 DB 상위 폴더가 아직 없으면 먼저 생성해 SQLite code 14 오류를 방지합니다.
+- 분량이 큰 문서에서 입력 이벤트 전달과 줄 번호 전체 레이아웃 계산을 지연·통합해 타이핑 지연을 줄였습니다.
+- 탭마다 편집기와 실행 취소 기록을 독립적으로 유지해 탭 전환 후에도 Ctrl+Z와 Undo 버튼으로 수정사항을 되돌릴 수 있습니다.
+- Undo·Redo 버튼이 Windows WebView의 실제 활성 편집기를 제어하도록 수정했습니다.
 <!-- INLOCO_RELEASE:4.12.0:END -->
 
 <!-- INLOCO_RELEASE:4.11.0:START -->
@@ -29,6 +30,8 @@
 - 최근 vault 점프 리스트로 앱을 시작할 때 로그인 세션 복원이 끝난 뒤 첫 동기화를 실행하도록 수정했습니다.
 - 서로 다른 로컬·서버 vault의 동기화 이력이 섞이지 않도록 vault 조합별 데이터베이스로 분리했습니다.
 - 세션 복원이 지연되면 만료된 로그인 정보로 동기화를 강행하지 않고 안전하게 건너뛰도록 보강했습니다.
+- 동기화 DB를 사용자 AppData 앱 지원 폴더 아래에 저장해 실행 위치와 관계없이 안전하게 열도록 수정했습니다.
+- DB 상위 폴더를 먼저 생성해 점프 리스트 실행 시 발생하던 SQLite code 14 오류를 방지했습니다.
 <!-- INLOCO_RELEASE:4.11.0:END -->
 
 <!-- INLOCO_RELEASE:4.10.0:START -->
