@@ -2,14 +2,24 @@
 
 로컬 우선 Markdown 메모 앱 inLoco의 정식 배포 저장소입니다.
 
-## 최신 버전 · 4.11.0
+## 최신 버전 · 4.12.0
 
-- [Windows Setup](https://github.com/tystarme/inLoco_release/releases/download/v4.11.0/inLoco-Setup-4.11.0.exe)
-- [Android APK](https://github.com/tystarme/inLoco_release/releases/download/v4.11.0/inLoco-4.11.0-release.apk)
+- [Windows Setup](https://github.com/tystarme/inLoco_release/releases/download/v4.12.0/inLoco-Setup-4.12.0.exe)
+- [Android APK](https://github.com/tystarme/inLoco_release/releases/download/v4.12.0/inLoco-4.12.0-release.apk)
 
 ## 릴리스 기록
 
 <!-- INLOCO_RELEASES_START -->
+<!-- INLOCO_RELEASE:4.12.0:START -->
+### inLoco 4.12.0
+
+- [Windows Setup](https://github.com/tystarme/inLoco_release/releases/download/v4.12.0/inLoco-Setup-4.12.0.exe)
+- [Android APK](https://github.com/tystarme/inLoco_release/releases/download/v4.12.0/inLoco-4.12.0-release.apk)
+
+- 최근 vault 점프 리스트로 실행해도 동기화 DB를 설치 폴더가 아닌 사용자 AppData 앱 지원 폴더에서 열도록 수정했습니다.
+- 동기화 DB 상위 폴더가 아직 없으면 먼저 생성해 SQLite code 14 오류를 방지합니다.
+<!-- INLOCO_RELEASE:4.12.0:END -->
+
 <!-- INLOCO_RELEASE:4.11.0:START -->
 ### inLoco 4.11.0
 
