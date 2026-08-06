@@ -2,14 +2,25 @@
 
 로컬 우선 Markdown 메모 앱 inLoco의 정식 배포 저장소입니다.
 
-## 최신 버전 · 4.12.0
+## 최신 버전 · 4.13.0
 
-- [Windows Setup](https://github.com/tystarme/inLoco_release/releases/download/v4.12.0/inLoco-Setup-4.12.0.exe)
-- [Android APK](https://github.com/tystarme/inLoco_release/releases/download/v4.12.0/inLoco-4.12.0-release.apk)
+- [Windows Setup](https://github.com/tystarme/inLoco_release/releases/download/v4.13.0/inLoco-Setup-4.13.0.exe)
+- [Android APK](https://github.com/tystarme/inLoco_release/releases/download/v4.13.0/inLoco-4.13.0-release.apk)
 
 ## 릴리스 기록
 
 <!-- INLOCO_RELEASES_START -->
+<!-- INLOCO_RELEASE:4.13.0:START -->
+### inLoco 4.13.0
+
+- [Windows Setup](https://github.com/tystarme/inLoco_release/releases/download/v4.13.0/inLoco-Setup-4.13.0.exe)
+- [Android APK](https://github.com/tystarme/inLoco_release/releases/download/v4.13.0/inLoco-4.13.0-release.apk)
+
+- Ctrl+F에서 t_mech, `본문`, C++, x[y]처럼 기호가 포함된 검색어도 읽기 화면에 정확히 하이라이트되도록 수정했습니다.
+- Ctrl+F 검색창의 위젯과 포커스를 안정적으로 유지하고 검색 갱신을 지연·통합해 Windows 한글 조합 중 커서와 자모가 뒤집히는 문제를 개선했습니다.
+- 검색어를 모두 지우거나 검색창을 닫았을 때 편집 화면에 이전 하이라이트가 남지 않도록 수정했습니다.
+<!-- INLOCO_RELEASE:4.13.0:END -->
+
 <!-- INLOCO_RELEASE:4.12.0:START -->
 ### inLoco 4.12.0
 
