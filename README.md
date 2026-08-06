@@ -2,14 +2,26 @@
 
 로컬 우선 Markdown 메모 앱 inLoco의 정식 배포 저장소입니다.
 
-## 최신 버전 · 4.13.0
+## 최신 버전 · 4.14.0
 
-- [Windows Setup](https://github.com/tystarme/inLoco_release/releases/download/v4.13.0/inLoco-Setup-4.13.0.exe)
-- [Android APK](https://github.com/tystarme/inLoco_release/releases/download/v4.13.0/inLoco-4.13.0-release.apk)
+- [Windows Setup](https://github.com/tystarme/inLoco_release/releases/download/v4.14.0/inLoco-Setup-4.14.0.exe)
+- [Android APK](https://github.com/tystarme/inLoco_release/releases/download/v4.14.0/inLoco-4.14.0-release.apk)
 
 ## 릴리스 기록
 
 <!-- INLOCO_RELEASES_START -->
+<!-- INLOCO_RELEASE:4.14.0:START -->
+### inLoco 4.14.0
+
+- [Windows Setup](https://github.com/tystarme/inLoco_release/releases/download/v4.14.0/inLoco-Setup-4.14.0.exe)
+- [Android APK](https://github.com/tystarme/inLoco_release/releases/download/v4.14.0/inLoco-4.14.0-release.apk)
+
+- 편집 도구 모음의 중복 도움말 버튼을 제거하고 최상단 도움말 버튼으로 접근 경로를 일원화했습니다.
+- 읽기·스플릿 화면 본문에 Pretendard를 적용하고 행간을 5% 넓혀 한글과 영문 가독성을 개선했습니다.
+- 순백 테마의 모든 Material 역할색을 무채색으로 구성해 배경과 UI에 남아 있던 청색 기운을 제거했습니다.
+- Windows 창 제목에 현재 vault명 또는 단일 파일명을 표시해 Alt+Tab과 작업 표시줄 미리보기에서 창을 구분할 수 있게 했습니다.
+<!-- INLOCO_RELEASE:4.14.0:END -->
+
 <!-- INLOCO_RELEASE:4.13.0:START -->
 ### inLoco 4.13.0
 
