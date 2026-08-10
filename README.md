@@ -2,14 +2,30 @@
 
 로컬 우선 Markdown 메모 앱 inLoco의 정식 배포 저장소입니다.
 
-## 최신 버전 · 4.14.0
+## 최신 버전 · 4.14.5
 
-- [Windows Setup](https://github.com/tystarme/inLoco_release/releases/download/v4.14.0/inLoco-Setup-4.14.0.exe)
-- [Android APK](https://github.com/tystarme/inLoco_release/releases/download/v4.14.0/inLoco-4.14.0-release.apk)
+- [Windows Setup](https://github.com/tystarme/inLoco_release/releases/download/v4.14.5/inLoco-Setup-4.14.5.exe)
+- [Android APK](https://github.com/tystarme/inLoco_release/releases/download/v4.14.5/inLoco-4.14.5-release.apk)
 
 ## 릴리스 기록
 
 <!-- INLOCO_RELEASES_START -->
+<!-- INLOCO_RELEASE:4.14.5:START -->
+### inLoco 4.14.5
+
+- [Windows Setup](https://github.com/tystarme/inLoco_release/releases/download/v4.14.5/inLoco-Setup-4.14.5.exe)
+- [Android APK](https://github.com/tystarme/inLoco_release/releases/download/v4.14.5/inLoco-4.14.5-release.apk)
+
+- Windows Ctrl+F 검색창을 네이티브 입력으로 교체해 한글 조합과 커서가 뒤집히던 문제를 해결했습니다. 찾아 바꾸기의 '바꿀 내용' 칸도 같은 방식으로 동작합니다.
+- 읽기·편집 본문의 기본 글자 크기를 이전 110% 크기로 재기준화했습니다. 배율 표시 100%가 그만큼 크게 보이며, 사용자가 지정한 배율은 그 위에 그대로 적용됩니다.
+- 편집 모드 검색이 CRLF 줄바꿈 문서에서 엉뚱한 위치를 잡거나 일부 매치만 강조하던 문제를 고쳤습니다. 파일의 줄바꿈 표기는 저장할 때 그대로 보존합니다.
+- Ctrl+F에서 Enter를 계속 눌러도 두 번째 매치에서 멈추던 문제와, 검색을 닫아도 편집기에 강조가 남아 있던 문제를 고쳤습니다.
+- 스플릿 모드에서 편집기와 렌더 화면 **양쪽 모두** 검색어를 강조하고, 각 화면이 자기 스크롤로 현재 매치를 보여 줍니다.
+- 표 셀에도 본문과 같은 글꼴을 적용하고, 코드는 JetBrains Mono 전용 글꼴로 표시해 코드와 본문을 한눈에 구분할 수 있게 했습니다.
+- 인라인 코드(`코드`)와 코드 블록 안의 검색어도 강조합니다. 코드 표기는 그대로 두고 매치 부분의 배경만 칠하며, 검색을 닫으면 강조도 함께 사라집니다.
+- 검색창 타이핑이 큰 노트에서 끊기던 문제를 개선하고, 검색창에서 Ctrl+A(전체 선택)로 입력한 검색어를 한 번에 지우거나 복사할 수 있게 했습니다.
+<!-- INLOCO_RELEASE:4.14.5:END -->
+
 <!-- INLOCO_RELEASE:4.14.0:START -->
 ### inLoco 4.14.0
 
