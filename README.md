@@ -2,14 +2,26 @@
 
 로컬 우선 Markdown 메모 앱 inLoco의 정식 배포 저장소입니다.
 
-## 최신 버전 · 4.15.1
+## 최신 버전 · 4.16.0
 
-- [Windows Setup](https://github.com/tystarme/inLoco_release/releases/download/v4.15.1/inLoco-Setup-4.15.1.exe)
-- [Android APK](https://github.com/tystarme/inLoco_release/releases/download/v4.15.1/inLoco-4.15.1-release.apk)
+- [Windows Setup](https://github.com/tystarme/inLoco_release/releases/download/v4.16.0/inLoco-Setup-4.16.0.exe)
+- [Android APK](https://github.com/tystarme/inLoco_release/releases/download/v4.16.0/inLoco-4.16.0-release.apk)
 
 ## 릴리스 기록
 
 <!-- INLOCO_RELEASES_START -->
+<!-- INLOCO_RELEASE:4.16.0:START -->
+### inLoco 4.16.0
+
+- [Windows Setup](https://github.com/tystarme/inLoco_release/releases/download/v4.16.0/inLoco-Setup-4.16.0.exe)
+- [Android APK](https://github.com/tystarme/inLoco_release/releases/download/v4.16.0/inLoco-4.16.0-release.apk)
+
+- 노트·폴더를 우클릭해 **탐색기에서 열기**를 고르면 Windows 탐색기가 그 파일을 선택한 채 열립니다. 공백·한글이 든 경로도 정확히 찾아갑니다.
+- 시작 화면 설정에 **"닫기 전 열어둔 탭 모두"** 가 생겼습니다. 앱을 다시 켜면 탭 순서와 활성 탭이 그대로 돌아옵니다(그 사이 지워진 노트는 건너뜁니다).
+- **Ctrl+Shift+T** 로 방금 닫은 탭을 닫기 전 위치에 되살립니다. 연달아 누르면 계속 거슬러 올라갑니다.
+- 노트 이름 변경·폴더 이동·삭제가 저장된 탭 목록에도 바로 반영돼, 다시 켰을 때 없는 경로를 열려고 하지 않습니다.
+<!-- INLOCO_RELEASE:4.16.0:END -->
+
 <!-- INLOCO_RELEASE:4.15.1:START -->
 ### inLoco 4.15.1
 
