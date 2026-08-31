@@ -2,14 +2,27 @@
 
 로컬 우선 Markdown 메모 앱 inLoco의 정식 배포 저장소입니다.
 
-## 최신 버전 · 4.14.5
+## 최신 버전 · 4.15.1
 
-- [Windows Setup](https://github.com/tystarme/inLoco_release/releases/download/v4.14.5/inLoco-Setup-4.14.5.exe)
-- [Android APK](https://github.com/tystarme/inLoco_release/releases/download/v4.14.5/inLoco-4.14.5-release.apk)
+- [Windows Setup](https://github.com/tystarme/inLoco_release/releases/download/v4.15.1/inLoco-Setup-4.15.1.exe)
+- [Android APK](https://github.com/tystarme/inLoco_release/releases/download/v4.15.1/inLoco-4.15.1-release.apk)
 
 ## 릴리스 기록
 
 <!-- INLOCO_RELEASES_START -->
+<!-- INLOCO_RELEASE:4.15.1:START -->
+### inLoco 4.15.1
+
+- [Windows Setup](https://github.com/tystarme/inLoco_release/releases/download/v4.15.1/inLoco-Setup-4.15.1.exe)
+- [Android APK](https://github.com/tystarme/inLoco_release/releases/download/v4.15.1/inLoco-4.15.1-release.apk)
+
+- 표/수식 바로 윗줄에 속성을 적어 폭을 조절합니다. `widths=1fr,2fr`은 열 너비, `wide`는 그 블록만 전체 폭, `wide widths=2fr,1fr`처럼 한 줄에 같이 쓸 수 있습니다. 단위는 px(화면 고정폭)·mm(PDF에서 실제 크기)·fr(남는 폭을 비율대로), 생략하면 픽셀입니다.
+- 비율(fr) 표는 화면과 PDF 모두 폭을 정확히 채우고, 열 경계를 드래그하면 옆 열에서 폭을 가져와 표 전체 크기가 변하지 않습니다. 드래그 결과는 같은 단위로 원문에 저장됩니다.
+- PDF 내보내기가 표 열 너비를 반영합니다. 고정폭 합이 페이지를 넘으면 비율을 유지한 채 줄여 열이 잘리지 않습니다.
+- PDF에 `:::wide widths=...`와 `:::` 문법이 본문 글자로 인쇄되던 문제를 고쳤습니다.
+- 단위 없이 저장된 기존 표(`widths=180,240`)는 그대로 동작하며, 드래그로 저장해도 단위를 임의로 붙이지 않습니다.
+<!-- INLOCO_RELEASE:4.15.1:END -->
+
 <!-- INLOCO_RELEASE:4.14.5:START -->
 ### inLoco 4.14.5
 
