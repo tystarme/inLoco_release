@@ -2,14 +2,25 @@
 
 로컬 우선 Markdown 메모 앱 inLoco의 정식 배포 저장소입니다.
 
-## 최신 버전 · 4.17.0
+## 최신 버전 · 4.17.1
 
-- [Windows Setup](https://github.com/tystarme/inLoco_release/releases/download/v4.17.0/inLoco-Setup-4.17.0.exe)
-- [Android APK](https://github.com/tystarme/inLoco_release/releases/download/v4.17.0/inLoco-4.17.0-release.apk)
+- [Windows Setup](https://github.com/tystarme/inLoco_release/releases/download/v4.17.1/inLoco-Setup-4.17.1.exe)
+- [Android APK](https://github.com/tystarme/inLoco_release/releases/download/v4.17.1/inLoco-4.17.1-release.apk)
 
 ## 릴리스 기록
 
 <!-- INLOCO_RELEASES_START -->
+<!-- INLOCO_RELEASE:4.17.1:START -->
+### inLoco 4.17.1
+
+- [Windows Setup](https://github.com/tystarme/inLoco_release/releases/download/v4.17.1/inLoco-Setup-4.17.1.exe)
+- [Android APK](https://github.com/tystarme/inLoco_release/releases/download/v4.17.1/inLoco-4.17.1-release.apk)
+
+- **체크박스가 사라지던 문제를 고쳤습니다.** 목록 항목 사이에 빈 줄이 하나라도 있으면 그 목록 전체의 체크박스가 그냥 불릿으로 보였습니다.
+- **엉뚱한 체크박스가 체크되던 문제를 고쳤습니다.** 중첩된 항목은 렌더러가 자식부터 만들기 때문에 화면 순서와 어긋났고, 접어 둔 토글이 가린 체크박스도 순번을 밀고 있었습니다.
+- 체크박스와 토글은 이제 **자동 저장하지 않습니다.** 읽으면서 접었다 폈다 할 때마다 저장·업로드가 돌아 화면이 끊겼습니다. 저장은 Ctrl+S(저장 버튼)에서만 합니다.
+<!-- INLOCO_RELEASE:4.17.1:END -->
+
 <!-- INLOCO_RELEASE:4.17.0:START -->
 ### inLoco 4.17.0
 
