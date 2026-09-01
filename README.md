@@ -2,14 +2,24 @@
 
 로컬 우선 Markdown 메모 앱 inLoco의 정식 배포 저장소입니다.
 
-## 최신 버전 · 4.17.1
+## 최신 버전 · 4.18.0
 
-- [Windows Setup](https://github.com/tystarme/inLoco_release/releases/download/v4.17.1/inLoco-Setup-4.17.1.exe)
-- [Android APK](https://github.com/tystarme/inLoco_release/releases/download/v4.17.1/inLoco-4.17.1-release.apk)
+- [Windows Setup](https://github.com/tystarme/inLoco_release/releases/download/v4.18.0/inLoco-Setup-4.18.0.exe)
+- [Android APK](https://github.com/tystarme/inLoco_release/releases/download/v4.18.0/inLoco-4.18.0-release.apk)
 
 ## 릴리스 기록
 
 <!-- INLOCO_RELEASES_START -->
+<!-- INLOCO_RELEASE:4.18.0:START -->
+### inLoco 4.18.0
+
+- [Windows Setup](https://github.com/tystarme/inLoco_release/releases/download/v4.18.0/inLoco-Setup-4.18.0.exe)
+- [Android APK](https://github.com/tystarme/inLoco_release/releases/download/v4.18.0/inLoco-4.18.0-release.apk)
+
+- **접기 경계**가 생겼습니다. `---`를 두 줄 연속으로 적으면 제목 접기가 거기서 멈춥니다. `# 제목` 하나가 문서 끝까지 삼키는 걸 막을 수 있습니다.
+- 접기 경계는 화면·PDF 모두 일반 구분선보다 **굵은 선**으로 그려 한눈에 구분됩니다.
+<!-- INLOCO_RELEASE:4.18.0:END -->
+
 <!-- INLOCO_RELEASE:4.17.1:START -->
 ### inLoco 4.17.1
 
