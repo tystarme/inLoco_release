@@ -2,14 +2,27 @@
 
 로컬 우선 Markdown 메모 앱 inLoco의 정식 배포 저장소입니다.
 
-## 최신 버전 · 4.16.0
+## 최신 버전 · 4.17.0
 
-- [Windows Setup](https://github.com/tystarme/inLoco_release/releases/download/v4.16.0/inLoco-Setup-4.16.0.exe)
-- [Android APK](https://github.com/tystarme/inLoco_release/releases/download/v4.16.0/inLoco-4.16.0-release.apk)
+- [Windows Setup](https://github.com/tystarme/inLoco_release/releases/download/v4.17.0/inLoco-Setup-4.17.0.exe)
+- [Android APK](https://github.com/tystarme/inLoco_release/releases/download/v4.17.0/inLoco-4.17.0-release.apk)
 
 ## 릴리스 기록
 
 <!-- INLOCO_RELEASES_START -->
+<!-- INLOCO_RELEASE:4.17.0:START -->
+### inLoco 4.17.0
+
+- [Windows Setup](https://github.com/tystarme/inLoco_release/releases/download/v4.17.0/inLoco-Setup-4.17.0.exe)
+- [Android APK](https://github.com/tystarme/inLoco_release/releases/download/v4.17.0/inLoco-4.17.0-release.apk)
+
+- **체크박스를 눌러도 파일이 바뀌지 않던 문제를 고쳤습니다.** 편집기 본문과 어긋나 옛 내용이 덮어쓰던 것이 원인이었습니다. 체크 한 번을 Ctrl+Z로 되돌릴 수도 있습니다.
+- 토글 문법이 줄 **맨 앞**으로 왔습니다: `## {toggle} 제목`, `- {toggle} 항목`. 접기 버튼도 줄 앞(목록에서는 bullet 옆)에 그려집니다.
+- `{toggle:close}` / `{toggle:open}`으로 처음 상태를 정할 수 있고, **버튼을 누르면 원문이 그대로 바뀝니다.** 접어 둔 상태가 파일에 남아 재시작·동기화·다른 기기에서도 유지됩니다.
+- 예전 문서의 줄 끝 `{toggle}` 표기도 그대로 동작합니다. 원문을 임의로 옮기지 않습니다.
+- PDF에 `{toggle}` 글자가 본문으로 인쇄되던 문제를 고쳤습니다. 접어 둔 내용도 종이에는 모두 펼쳐서 나옵니다.
+<!-- INLOCO_RELEASE:4.17.0:END -->
+
 <!-- INLOCO_RELEASE:4.16.0:START -->
 ### inLoco 4.16.0
 
