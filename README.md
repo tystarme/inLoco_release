@@ -2,14 +2,25 @@
 
 로컬 우선 Markdown 메모 앱 inLoco의 정식 배포 저장소입니다.
 
-## 최신 버전 · 4.18.0
+## 최신 버전 · 4.18.1
 
-- [Windows Setup](https://github.com/tystarme/inLoco_release/releases/download/v4.18.0/inLoco-Setup-4.18.0.exe)
-- [Android APK](https://github.com/tystarme/inLoco_release/releases/download/v4.18.0/inLoco-4.18.0-release.apk)
+- [Windows Setup](https://github.com/tystarme/inLoco_release/releases/download/v4.18.1/inLoco-Setup-4.18.1.exe)
+- [Android APK](https://github.com/tystarme/inLoco_release/releases/download/v4.18.1/inLoco-4.18.1-release.apk)
 
 ## 릴리스 기록
 
 <!-- INLOCO_RELEASES_START -->
+<!-- INLOCO_RELEASE:4.18.1:START -->
+### inLoco 4.18.1
+
+- [Windows Setup](https://github.com/tystarme/inLoco_release/releases/download/v4.18.1/inLoco-Setup-4.18.1.exe)
+- [Android APK](https://github.com/tystarme/inLoco_release/releases/download/v4.18.1/inLoco-4.18.1-release.apk)
+
+- **Ctrl+Z로 되돌릴 수 있는 횟수가 줄어들던 문제를 고쳤습니다.** 렌더에서 시작한 편집(체크박스·토글·표)과 편집기 입력이 각각 다른 실행취소 기록에 쌓여, 한쪽을 되돌리면 다른 쪽 기록이 통째로 사라졌습니다. 이제 편집기가 있으면 편집기 기록 하나만 씁니다.
+- **접기 경계에 등급이 생겼습니다.** `## ---`처럼 적으면 그 등급 **이하**의 접기만 끊습니다. `## ---`은 `##` 접기만 끊고 바깥 `#` 접기는 그대로 통과합니다. 등급이 셀수록 선이 두껍게 그려집니다.
+- 등급이 없던 `---` 두 줄 형태는 없앴습니다(안쪽 구역용 경계가 바깥 접기까지 잘랐습니다). 이제 접기 경계는 `# ---` 계열 한 가지입니다.
+<!-- INLOCO_RELEASE:4.18.1:END -->
+
 <!-- INLOCO_RELEASE:4.18.0:START -->
 ### inLoco 4.18.0
 
