@@ -2,14 +2,24 @@
 
 로컬 우선 Markdown 메모 앱 inLoco의 정식 배포 저장소입니다.
 
-## 최신 버전 · 4.18.1
+## 최신 버전 · 4.18.2
 
-- [Windows Setup](https://github.com/tystarme/inLoco_release/releases/download/v4.18.1/inLoco-Setup-4.18.1.exe)
-- [Android APK](https://github.com/tystarme/inLoco_release/releases/download/v4.18.1/inLoco-4.18.1-release.apk)
+- [Windows Setup](https://github.com/tystarme/inLoco_release/releases/download/v4.18.2/inLoco-Setup-4.18.2.exe)
+- [Android APK](https://github.com/tystarme/inLoco_release/releases/download/v4.18.2/inLoco-4.18.2-release.apk)
 
 ## 릴리스 기록
 
 <!-- INLOCO_RELEASES_START -->
+<!-- INLOCO_RELEASE:4.18.2:START -->
+### inLoco 4.18.2
+
+- [Windows Setup](https://github.com/tystarme/inLoco_release/releases/download/v4.18.2/inLoco-Setup-4.18.2.exe)
+- [Android APK](https://github.com/tystarme/inLoco_release/releases/download/v4.18.2/inLoco-4.18.2-release.apk)
+
+- 4.18.1과 **기능은 같습니다.** 같은 `4.18.1` 버전으로 내용이 다른 설치 파일이 두 번 만들어져, 어느 것을 설치했는지 구분할 수 없는 문제가 있었습니다. 구분을 위해 번호만 올린 판입니다.
+- `4.18.1`을 설치하셨다면 이 판으로 다시 설치해 주세요.
+<!-- INLOCO_RELEASE:4.18.2:END -->
+
 <!-- INLOCO_RELEASE:4.18.1:START -->
 ### inLoco 4.18.1
 
