@@ -2,14 +2,26 @@
 
 로컬 우선 Markdown 메모 앱 inLoco의 정식 배포 저장소입니다.
 
-## 최신 버전 · 4.21.0
+## 최신 버전 · 4.21.1
 
-- [Windows Setup](https://github.com/tystarme/inLoco_release/releases/download/v4.21.0/inLoco-Setup-4.21.0.exe)
-- [Android APK](https://github.com/tystarme/inLoco_release/releases/download/v4.21.0/inLoco-4.21.0-release.apk)
+- [Windows Setup](https://github.com/tystarme/inLoco_release/releases/download/v4.21.1/inLoco-Setup-4.21.1.exe)
+- [Android APK](https://github.com/tystarme/inLoco_release/releases/download/v4.21.1/inLoco-4.21.1-release.apk)
 
 ## 릴리스 기록
 
 <!-- INLOCO_RELEASES_START -->
+<!-- INLOCO_RELEASE:4.21.1:START -->
+### inLoco 4.21.1
+
+- [Windows Setup](https://github.com/tystarme/inLoco_release/releases/download/v4.21.1/inLoco-Setup-4.21.1.exe)
+- [Android APK](https://github.com/tystarme/inLoco_release/releases/download/v4.21.1/inLoco-4.21.1-release.apk)
+
+- **로컬 전용 vault에 `.`으로 시작하는 파일이 쌓이던 문제**를 고쳤습니다. 저장할 때 만드는 임시 파일 이름이 `.`으로 시작해, 탐색기와 클라우드 동기화 클라이언트에는 보이면서 정작 앱은 숨김으로 걸러 치우지 못했습니다. 이름에서 `.`을 떼고, 저장이 실패해도 반드시 지웁니다.
+- **로컬 전용 vault인데 `.sync-trash` 폴더가 생기던 문제**를 고쳤습니다. 앱을 켜거나 vault를 바꾼 직후의 첫 정리 작업이 로컬 전용 설정보다 먼저 돌아, 서버용 휴지통을 vault 안에 만들었습니다. 탐색기에서 `.md` 파일을 열 때마다 반복됐습니다.
+- 이미 쌓여 있던 임시 파일은 목록을 훑을 때 함께 치웁니다(10분 넘은 것만 — 다른 창이 쓰는 중일 수 있습니다).
+- vault 밖 파일을 저장할 때도 실패하면 임시 파일을 남기지 않습니다.
+<!-- INLOCO_RELEASE:4.21.1:END -->
+
 <!-- INLOCO_RELEASE:4.21.0:START -->
 ### inLoco 4.21.0
 
