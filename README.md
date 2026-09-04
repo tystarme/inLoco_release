@@ -2,14 +2,26 @@
 
 로컬 우선 Markdown 메모 앱 inLoco의 정식 배포 저장소입니다.
 
-## 최신 버전 · 4.18.2
+## 최신 버전 · 4.20.2
 
-- [Windows Setup](https://github.com/tystarme/inLoco_release/releases/download/v4.18.2/inLoco-Setup-4.18.2.exe)
-- [Android APK](https://github.com/tystarme/inLoco_release/releases/download/v4.18.2/inLoco-4.18.2-release.apk)
+- [Windows Setup](https://github.com/tystarme/inLoco_release/releases/download/v4.20.2/inLoco-Setup-4.20.2.exe)
+- [Android APK](https://github.com/tystarme/inLoco_release/releases/download/v4.20.2/inLoco-4.20.2-release.apk)
 
 ## 릴리스 기록
 
 <!-- INLOCO_RELEASES_START -->
+<!-- INLOCO_RELEASE:4.20.2:START -->
+### inLoco 4.20.2
+
+- [Windows Setup](https://github.com/tystarme/inLoco_release/releases/download/v4.20.2/inLoco-Setup-4.20.2.exe)
+- [Android APK](https://github.com/tystarme/inLoco_release/releases/download/v4.20.2/inLoco-4.20.2-release.apk)
+
+- **문장 속 수식이 조판되지 않던 문제를 고쳤습니다.** 문단·목록·제목이 수식 설정을 못 받아 문장 안의 `$…$`만 옛 근사 표기로 떨어졌습니다. 이제 블록 수식과 똑같이 조판됩니다.
+- `aligned` 여러 줄 수식에 **있지도 않은 중괄호 `{`가 그려지던 문제**를 고쳤습니다. 중괄호는 `cases`에만 붙습니다.
+- `\bar`·`\overline`·제곱근의 **윗줄이 글자에서 너무 멀리 떠 있던 것**을 글자에 붙였습니다.
+- 인터넷이 없어 글꼴을 받지 못해도 수식을 조판합니다(내장 글꼴로 물러납니다). 예전에는 이 경우 수식이 통째로 근사 표기로 나갔습니다.
+<!-- INLOCO_RELEASE:4.20.2:END -->
+
 <!-- INLOCO_RELEASE:4.18.2:START -->
 ### inLoco 4.18.2
 
