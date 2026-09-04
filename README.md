@@ -2,14 +2,28 @@
 
 로컬 우선 Markdown 메모 앱 inLoco의 정식 배포 저장소입니다.
 
-## 최신 버전 · 4.20.2
+## 최신 버전 · 4.21.0
 
-- [Windows Setup](https://github.com/tystarme/inLoco_release/releases/download/v4.20.2/inLoco-Setup-4.20.2.exe)
-- [Android APK](https://github.com/tystarme/inLoco_release/releases/download/v4.20.2/inLoco-4.20.2-release.apk)
+- [Windows Setup](https://github.com/tystarme/inLoco_release/releases/download/v4.21.0/inLoco-Setup-4.21.0.exe)
+- [Android APK](https://github.com/tystarme/inLoco_release/releases/download/v4.21.0/inLoco-4.21.0-release.apk)
 
 ## 릴리스 기록
 
 <!-- INLOCO_RELEASES_START -->
+<!-- INLOCO_RELEASE:4.21.0:START -->
+### inLoco 4.21.0
+
+- [Windows Setup](https://github.com/tystarme/inLoco_release/releases/download/v4.21.0/inLoco-Setup-4.21.0.exe)
+- [Android APK](https://github.com/tystarme/inLoco_release/releases/download/v4.21.0/inLoco-4.21.0-release.apk)
+
+- **PDF 수식이 한 줄 안에서 위아래로 제멋대로 뜨던 문제**를 고쳤습니다. 문장 속 수식을 본문보다 제 깊이의 두 배만큼 띄워 놓고 있었고, 그 양이 수식마다 달라 들쭉날쭉했습니다. 이제 본문 글자와 같은 줄에 정확히 앉습니다.
+- **분수가 한 줄을 통째로 차지하던 문제**를 고쳤습니다. 분수 하나가 본문 폭 전체를 먹어 문장이 끊기고 수식 사이가 벌어졌습니다.
+- `\bar`·`\overline`의 **윗줄을 글자에 제대로 붙였습니다.** 글꼴의 실제 치수를 재서 글자 잉크 바로 위에 긋습니다(예전에는 글자 상자 꼭대기에 그려 한참 떠 있었습니다).
+- 제곱근 기호와 늘어나는 괄호 `( ) [ ] { }`를 **직접 그립니다.** 글리프를 억지로 키우던 방식이라 수식 위아래에 빈 공간이 생기고 획 굵기가 덮개선과 어긋났습니다.
+- **수식 문법을 더 알아봅니다.** `\hat` `\vec` `\tilde` `\dot` 같은 악센트, `\mathbf` `\mathbb` `\boldsymbol` 같은 서체 명령, `\displaystyle` 류 스위치, `\textbf` `\mbox`를 지원합니다. 조판에 실패한 수식만 이미지로 물러나므로, 한 문서 안에서 어떤 수식은 글자·어떤 수식은 이미지로 갈리는 일이 줄었습니다.
+- `10^{-4}`의 앞선 `-`를 이항 연산자가 아닌 **부호**로 봅니다. 연산자 좌우 여백도 TeX 기준에 맞춰 좁혔습니다(`1 - p`가 두 배로 벌어져 있었습니다).
+<!-- INLOCO_RELEASE:4.21.0:END -->
+
 <!-- INLOCO_RELEASE:4.20.2:START -->
 ### inLoco 4.20.2
 
