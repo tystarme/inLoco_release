@@ -2,14 +2,27 @@
 
 로컬 우선 Markdown 메모 앱 inLoco의 정식 배포 저장소입니다.
 
-## 최신 버전 · 4.21.1
+## 최신 버전 · 4.22.0
 
-- [Windows Setup](https://github.com/tystarme/inLoco_release/releases/download/v4.21.1/inLoco-Setup-4.21.1.exe)
-- [Android APK](https://github.com/tystarme/inLoco_release/releases/download/v4.21.1/inLoco-4.21.1-release.apk)
+- [Windows Setup](https://github.com/tystarme/inLoco_release/releases/download/v4.22.0/inLoco-Setup-4.22.0.exe)
+- [Android APK](https://github.com/tystarme/inLoco_release/releases/download/v4.22.0/inLoco-4.22.0-release.apk)
 
 ## 릴리스 기록
 
 <!-- INLOCO_RELEASES_START -->
+<!-- INLOCO_RELEASE:4.22.0:START -->
+### inLoco 4.22.0
+
+- [Windows Setup](https://github.com/tystarme/inLoco_release/releases/download/v4.22.0/inLoco-Setup-4.22.0.exe)
+- [Android APK](https://github.com/tystarme/inLoco_release/releases/download/v4.22.0/inLoco-4.22.0-release.apk)
+
+- **PDF의 `코드`가 화면과 같은 글꼴로 나갑니다.** 앱에 들어 있는 JetBrains Mono를 종이에도 그대로 씁니다. 예전에는 내장 Courier를 썼는데 이 글꼴은 라틴 문자만 담고 있었습니다.
+- **코드 안 한글이 사라지던 문제**를 고쳤습니다. 코드 글꼴이 못 그리는 글자를 이어받을 순서에 한글 글꼴이 하나도 없어서, `코드 조각` 같은 한글이 종이에서 통째로 빠졌습니다.
+- **표 칸 안의 서식이 살아납니다.** `코드`·**굵게**·색·수식이 표에서만 평문으로 나오던 문제를 고쳤습니다.
+- 코드 블록도 고정폭 글꼴로 나갑니다(예전에는 본문 글꼴이라 종이에서만 자간이 어긋났습니다).
+- 인라인 코드의 글자색과 바탕색을 화면과 맞췄습니다.
+<!-- INLOCO_RELEASE:4.22.0:END -->
+
 <!-- INLOCO_RELEASE:4.21.1:START -->
 ### inLoco 4.21.1
 
