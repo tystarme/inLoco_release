@@ -22,6 +22,63 @@
 - PDF 내보내기 줄간격은 초기 출력보다 20% 넓힌 현재 크기를 설정창의 1.0배로 재기준화했습니다. 기존 저장 기본값도 1.0배로 마이그레이션됩니다.
 <!-- INLOCO_RELEASE:4.27.1:END -->
 
+<!-- INLOCO_RELEASE:4.27.0:START -->
+### inLoco 4.27.0
+
+- [Windows Setup](https://github.com/tystarme/inLoco_release/releases/download/v4.27.0/inLoco-Setup-4.27.0.exe)
+- [Android APK](https://github.com/tystarme/inLoco_release/releases/download/v4.27.0/inLoco-4.27.0-release.apk)
+
+- Windows에 MiKTeX가 설치되어 있으면 .tex 파일을 XeLaTeX로 실제 조판해 읽기·라이브 화면에 표시합니다.
+- 참고문헌이 필요한 문서는 MiKTeX의 Biber를 함께 실행하며, PDF 내보내기도 화면과 같은 컴파일 결과를 저장합니다.
+- PDF에서 우클릭한 뒤 '이 위치로 편집기 이동'을 선택하면 SyncTeX 좌표를 이용해 대응하는 원문 행으로 이동합니다.
+- MiKTeX가 없거나 컴파일에 실패하면 원문을 보존한 채 내장 렌더러로 전환합니다. inLoco는 TeX 엔진이나 패키지를 포함·다운로드하지 않습니다.
+<!-- INLOCO_RELEASE:4.27.0:END -->
+
+<!-- INLOCO_RELEASE:4.26.1:START -->
+### inLoco 4.26.1
+
+- [Windows Setup](https://github.com/tystarme/inLoco_release/releases/download/v4.26.1/inLoco-Setup-4.26.1.exe)
+- [Android APK](https://github.com/tystarme/inLoco_release/releases/download/v4.26.1/inLoco-4.26.1-release.apk)
+
+- .tex 파일에서 quotation과 quote 인용 환경을 실제 인용 블록으로 렌더링합니다.
+- .tex 라이브 프리뷰의 우클릭 메뉴에서 ‘이 위치로 이동’을 다시 사용할 수 있으며, LaTeX 명령을 제외한 본문 기준으로 원문 위치를 찾습니다.
+- 표 도움말에 왼쪽(:--- 또는 ---), 가운데(:---:), 오른쪽(---:) 정렬 예제를 명확히 추가했습니다.
+<!-- INLOCO_RELEASE:4.26.1:END -->
+
+<!-- INLOCO_RELEASE:4.26.0:START -->
+### inLoco 4.26.0
+
+- [Windows Setup](https://github.com/tystarme/inLoco_release/releases/download/v4.26.0/inLoco-Setup-4.26.0.exe)
+- [Android APK](https://github.com/tystarme/inLoco_release/releases/download/v4.26.0/inLoco-4.26.0-release.apk)
+
+- .tex 파일의 preamble은 숨기고 section, 문단, 강조, 목록, 수식, align, 기본 tabular를 실제 읽기 형태로 렌더링합니다.
+- 읽기·라이브 프리뷰·PDF 내보내기가 같은 LaTeX 변환 결과를 사용하며, 편집 원문은 그대로 보존합니다.
+- 지원하지 않는 input/include, TikZ 및 잘못 닫힌 문법은 빈 화면 대신 위치 안내와 LaTeX 원문으로 표시합니다.
+- 검색 가능한 문법 도움말에 .tex 전체 문서 지원 범위와 제한사항을 추가했습니다.
+<!-- INLOCO_RELEASE:4.26.0:END -->
+
+<!-- INLOCO_RELEASE:4.25.0:START -->
+### inLoco 4.25.0
+
+- [Windows Setup](https://github.com/tystarme/inLoco_release/releases/download/v4.25.0/inLoco-Setup-4.25.0.exe)
+- [Android APK](https://github.com/tystarme/inLoco_release/releases/download/v4.25.0/inLoco-4.25.0-release.apk)
+
+- 도움말을 검색 가능한 문법 안내로 전면 개편했습니다. 제목, title, 표 너비, toggle, LaTeX 같은 단어로 필요한 문법을 바로 찾을 수 있습니다.
+- 각 도움말에 바로 붙여 넣어 쓸 수 있는 원문 예제, 렌더 결과 설명, 주의사항과 복사 버튼을 제공합니다.
+- 데스크톱에서는 넓은 도움말 창으로, 좁은 화면에서는 거의 전체 화면을 쓰는 시트로 표시합니다.
+<!-- INLOCO_RELEASE:4.25.0:END -->
+
+<!-- INLOCO_RELEASE:4.24.0:START -->
+### inLoco 4.24.0
+
+- [Windows Setup](https://github.com/tystarme/inLoco_release/releases/download/v4.24.0/inLoco-Setup-4.24.0.exe)
+- [Android APK](https://github.com/tystarme/inLoco_release/releases/download/v4.24.0/inLoco-4.24.0-release.apk)
+
+- PDF 내보내기 창에서 글자 크기를 50~200%, 줄간격을 1.0~2.0배로 조절할 수 있습니다.
+- 마지막으로 선택한 PDF 글자 크기와 줄간격을 기억해 다음 내보내기에도 그대로 적용합니다.
+- 글자 크기를 바꿔도 표의 px·mm·fr 열 너비와 페이지 여백은 유지됩니다.
+<!-- INLOCO_RELEASE:4.24.0:END -->
+
 <!-- INLOCO_RELEASE:4.23.2:START -->
 ### inLoco 4.23.2
 
