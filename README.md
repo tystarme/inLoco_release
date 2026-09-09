@@ -2,14 +2,30 @@
 
 로컬 우선 Markdown 메모 앱 inLoco의 정식 배포 저장소입니다.
 
-## 최신 버전 · 4.22.0
+## 최신 버전 · 4.23.1
 
-- [Windows Setup](https://github.com/tystarme/inLoco_release/releases/download/v4.22.0/inLoco-Setup-4.22.0.exe)
-- [Android APK](https://github.com/tystarme/inLoco_release/releases/download/v4.22.0/inLoco-4.22.0-release.apk)
+- [Windows Setup](https://github.com/tystarme/inLoco_release/releases/download/v4.23.1/inLoco-Setup-4.23.1.exe)
+- [Android APK](https://github.com/tystarme/inLoco_release/releases/download/v4.23.1/inLoco-4.23.1-release.apk)
 
 ## 릴리스 기록
 
 <!-- INLOCO_RELEASES_START -->
+<!-- INLOCO_RELEASE:4.23.1:START -->
+### inLoco 4.23.1
+
+- [Windows Setup](https://github.com/tystarme/inLoco_release/releases/download/v4.23.1/inLoco-Setup-4.23.1.exe)
+- [Android APK](https://github.com/tystarme/inLoco_release/releases/download/v4.23.1/inLoco-4.23.1-release.apk)
+
+- **PDF 내보내기가 화면과 같은 방식으로 그려집니다.** 지금까지는 화면과 종이를 서로 다른 방법으로 그려서 글꼴·수식·표가 계속 어긋났습니다. 이제 읽기 화면과 같은 것을 그대로 인쇄합니다.
+- **수식이 이미지가 아니라 글자로 나갑니다.** KaTeX로 그려서 PDF에서 선택·검색·복사가 되고, 예전에 지원하지 못해 원문이 그대로 찍히던 `\underbrace`·`\sum` 같은 문법도 제대로 나옵니다. 내보내기 속도도 빨라졌습니다(수식을 하나씩 이미지로 굽던 단계가 없어졌습니다).
+- **인터넷 없이도 PDF가 제대로 나옵니다.** 글꼴을 앱에 넣어 두었습니다. 예전에는 내보낼 때마다 글꼴을 내려받아야 했고, 연결이 없으면 한글이 통째로 빠진 PDF가 조용히 만들어졌습니다(오류 안내도 뜨지 않았습니다).
+- **어느 기기에서 뽑아도 같은 결과가 나옵니다.** PC와 휴대폰이 서로 다른 시스템 글꼴을 쓰지 않도록 앱이 가진 글꼴만 사용합니다.
+- 문서 안의 **링크가 PDF에서 눌립니다.**
+- 본문 **줄 간격을 넓혔습니다**(1.2배). 화면보다 종이에서 답답했습니다.
+- 문서 맨 위 파일 이름을 머리말처럼 작게 두어 노트 제목과 겹쳐 보이지 않습니다.
+- PDF 뷰어 탭에 파일 이름이 제대로 표시됩니다.
+<!-- INLOCO_RELEASE:4.23.1:END -->
+
 <!-- INLOCO_RELEASE:4.22.0:START -->
 ### inLoco 4.22.0
 
