@@ -2,14 +2,23 @@
 
 로컬 우선 Markdown 메모 앱 inLoco의 정식 배포 저장소입니다.
 
-## 최신 버전 · 4.23.1
+## 최신 버전 · 4.23.2
 
-- [Windows Setup](https://github.com/tystarme/inLoco_release/releases/download/v4.23.1/inLoco-Setup-4.23.1.exe)
-- [Android APK](https://github.com/tystarme/inLoco_release/releases/download/v4.23.1/inLoco-4.23.1-release.apk)
+- [Windows Setup](https://github.com/tystarme/inLoco_release/releases/download/v4.23.2/inLoco-Setup-4.23.2.exe)
+- [Android APK](https://github.com/tystarme/inLoco_release/releases/download/v4.23.2/inLoco-4.23.2-release.apk)
 
 ## 릴리스 기록
 
 <!-- INLOCO_RELEASES_START -->
+<!-- INLOCO_RELEASE:4.23.2:START -->
+### inLoco 4.23.2
+
+- [Windows Setup](https://github.com/tystarme/inLoco_release/releases/download/v4.23.2/inLoco-Setup-4.23.2.exe)
+- [Android APK](https://github.com/tystarme/inLoco_release/releases/download/v4.23.2/inLoco-4.23.2-release.apk)
+
+- 읽기·스플릿 화면의 숫자 목록에서 `20.`처럼 두 자리 이상인 번호의 마침표가 다음 줄로 떨어지던 문제를 수정했습니다. 세 자리 이상의 번호도 번호와 마침표를 한 줄에 유지합니다.
+<!-- INLOCO_RELEASE:4.23.2:END -->
+
 <!-- INLOCO_RELEASE:4.23.1:START -->
 ### inLoco 4.23.1
 
