@@ -2,14 +2,26 @@
 
 로컬 우선 Markdown 메모 앱 inLoco의 정식 배포 저장소입니다.
 
-## 최신 버전 · 4.23.2
+## 최신 버전 · 4.27.1
 
-- [Windows Setup](https://github.com/tystarme/inLoco_release/releases/download/v4.23.2/inLoco-Setup-4.23.2.exe)
-- [Android APK](https://github.com/tystarme/inLoco_release/releases/download/v4.23.2/inLoco-4.23.2-release.apk)
+- [Windows Setup](https://github.com/tystarme/inLoco_release/releases/download/v4.27.1/inLoco-Setup-4.27.1.exe)
+- [Android APK](https://github.com/tystarme/inLoco_release/releases/download/v4.27.1/inLoco-4.27.1-release.apk)
 
 ## 릴리스 기록
 
 <!-- INLOCO_RELEASES_START -->
+<!-- INLOCO_RELEASE:4.27.1:START -->
+### inLoco 4.27.1
+
+- [Windows Setup](https://github.com/tystarme/inLoco_release/releases/download/v4.27.1/inLoco-Setup-4.27.1.exe)
+- [Android APK](https://github.com/tystarme/inLoco_release/releases/download/v4.27.1/inLoco-4.27.1-release.apk)
+
+- .tex 스플릿 라이브 프리뷰를 빠른 inLoco 렌더러로 바꿔 입력할 때마다 MiKTeX PDF를 다시 컴파일하던 지연을 제거했습니다.
+- 실제 LaTeX 읽기 화면에 세로·가로 스크롤바를 추가하고, 우클릭 → 이 위치로 편집기 이동을 현재 PDF 뷰어 API에 맞게 복구했습니다.
+- 문서에 hyperref가 없어도 컴파일 사본에만 적용해 cite와 ref 내부 링크를 누르면 해당 위치로 이동합니다. 원본 .tex는 변경하지 않습니다.
+- PDF 내보내기 줄간격은 초기 출력보다 20% 넓힌 현재 크기를 설정창의 1.0배로 재기준화했습니다. 기존 저장 기본값도 1.0배로 마이그레이션됩니다.
+<!-- INLOCO_RELEASE:4.27.1:END -->
+
 <!-- INLOCO_RELEASE:4.23.2:START -->
 ### inLoco 4.23.2
 
