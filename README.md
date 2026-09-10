@@ -2,14 +2,26 @@
 
 로컬 우선 Markdown 메모 앱 inLoco의 정식 배포 저장소입니다.
 
-## 최신 버전 · 4.27.1
+## 최신 버전 · 4.27.2
 
-- [Windows Setup](https://github.com/tystarme/inLoco_release/releases/download/v4.27.1/inLoco-Setup-4.27.1.exe)
-- [Android APK](https://github.com/tystarme/inLoco_release/releases/download/v4.27.1/inLoco-4.27.1-release.apk)
+- [Windows Setup](https://github.com/tystarme/inLoco_release/releases/download/v4.27.2/inLoco-Setup-4.27.2.exe)
+- [Android APK](https://github.com/tystarme/inLoco_release/releases/download/v4.27.2/inLoco-4.27.2-release.apk)
 
 ## 릴리스 기록
 
 <!-- INLOCO_RELEASES_START -->
+<!-- INLOCO_RELEASE:4.27.2:START -->
+### inLoco 4.27.2
+
+- [Windows Setup](https://github.com/tystarme/inLoco_release/releases/download/v4.27.2/inLoco-Setup-4.27.2.exe)
+- [Android APK](https://github.com/tystarme/inLoco_release/releases/download/v4.27.2/inLoco-4.27.2-release.apk)
+
+- .tex 스플릿 라이브 프리뷰에서 cite 계열 인용과 ref·eqref 참조를 읽을 수 있게 표시합니다.
+- quote·quotation·abstract·description과 정리·정의·증명 등 자주 쓰는 문서 환경을 빠르게 렌더링합니다.
+- table·tabular·tabularx·longtable, figure·includegraphics·caption과 여러 줄 수식 환경 지원을 넓혔습니다.
+- 각주·외부 링크·URL·참고문헌·verbatim·lstlisting 등 보편적인 LaTeX 문법을 스플릿 화면에서 바로 확인할 수 있습니다.
+<!-- INLOCO_RELEASE:4.27.2:END -->
+
 <!-- INLOCO_RELEASE:4.27.1:START -->
 ### inLoco 4.27.1
 
