@@ -2,14 +2,27 @@
 
 로컬 우선 Markdown 메모 앱 inLoco의 정식 배포 저장소입니다.
 
-## 최신 버전 · 5.0.0
+## 최신 버전 · 5.2.1
 
-- [Windows Setup](https://github.com/tystarme/inLoco_release/releases/download/v5.0.0/inLoco-Setup-5.0.0.exe)
-- [Android APK](https://github.com/tystarme/inLoco_release/releases/download/v5.0.0/inLoco-5.0.0-release.apk)
+- [Windows Setup](https://github.com/tystarme/inLoco_release/releases/download/v5.2.1/inLoco-Setup-5.2.1.exe)
+- [Android APK](https://github.com/tystarme/inLoco_release/releases/download/v5.2.1/inLoco-5.2.1-release.apk)
 
 ## 릴리스 기록
 
 <!-- INLOCO_RELEASES_START -->
+<!-- INLOCO_RELEASE:5.2.1:START -->
+### inLoco 5.2.1
+
+- [Windows Setup](https://github.com/tystarme/inLoco_release/releases/download/v5.2.1/inLoco-Setup-5.2.1.exe)
+- [Android APK](https://github.com/tystarme/inLoco_release/releases/download/v5.2.1/inLoco-5.2.1-release.apk)
+
+- PDF를 보다가 다른 탭에 갔다 돌아와도 보던 페이지와 배율이 그대로 유지됩니다.
+- Windows에서 Alt+Tab으로 다른 앱에 갔다 돌아오면 편집기 커서가 사라져 다시 클릭해야 하던 문제를 고쳤습니다. 편집 중이었으면 편집기로, 목록을 보고 있었으면 목록으로 포커스가 돌아갑니다.
+- 모바일에서 목록으로 나갔다가 열어 둔 메모로 바로 돌아가는 띠를 목록 위에 추가했습니다. 메모는 닫히지 않고 탭에 남습니다.
+- 모바일 파일 목록을 타일(카드) 형태로 볼 수 있습니다. 목록 헤더의 타일 버튼으로 전환하며 설정이 기억됩니다.
+- 알림바를 누르기만 해도 바로 닫힙니다. 모든 알림바 모양을 하나로 통일했습니다.
+<!-- INLOCO_RELEASE:5.2.1:END -->
+
 <!-- INLOCO_RELEASE:5.0.0:START -->
 ### inLoco 5.0.0
 
