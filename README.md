@@ -2,14 +2,27 @@
 
 로컬 우선 Markdown 메모 앱 inLoco의 정식 배포 저장소입니다.
 
-## 최신 버전 · 4.27.2
+## 최신 버전 · 5.0.0
 
-- [Windows Setup](https://github.com/tystarme/inLoco_release/releases/download/v4.27.2/inLoco-Setup-4.27.2.exe)
-- [Android APK](https://github.com/tystarme/inLoco_release/releases/download/v4.27.2/inLoco-4.27.2-release.apk)
+- [Windows Setup](https://github.com/tystarme/inLoco_release/releases/download/v5.0.0/inLoco-Setup-5.0.0.exe)
+- [Android APK](https://github.com/tystarme/inLoco_release/releases/download/v5.0.0/inLoco-5.0.0-release.apk)
 
 ## 릴리스 기록
 
 <!-- INLOCO_RELEASES_START -->
+<!-- INLOCO_RELEASE:5.0.0:START -->
+### inLoco 5.0.0
+
+- [Windows Setup](https://github.com/tystarme/inLoco_release/releases/download/v5.0.0/inLoco-Setup-5.0.0.exe)
+- [Android APK](https://github.com/tystarme/inLoco_release/releases/download/v5.0.0/inLoco-5.0.0-release.apk)
+
+- 노트 링크([[메모]])를 눌러도 이동하지 않던 문제를 수정했습니다. 파일 이름에 한글이 들어가면 링크가 통째로 동작하지 않았습니다.
+- 같은 파일 이름이 여러 폴더에 있을 때, 링크가 적힌 노트와 같은 폴더의 파일을 먼저 엽니다.
+- 메모를 띄운 화면에서 제목을 눌러 바로 이름을 바꿀 수 있습니다. PDF·이미지·표 뷰어에서도 됩니다.
+- 왼쪽 파일 목록에 현재 열린 메모의 위치까지 한 번에 펼치는 버튼을 추가했습니다.
+- 이름을 바꾼 뒤 저장되지 않은 탭 정보가 옛 경로에 남아 앱이 닫히지 않던 문제를 함께 고쳤습니다.
+<!-- INLOCO_RELEASE:5.0.0:END -->
+
 <!-- INLOCO_RELEASE:4.27.2:START -->
 ### inLoco 4.27.2
 
