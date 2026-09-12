@@ -2,14 +2,28 @@
 
 로컬 우선 Markdown 메모 앱 inLoco의 정식 배포 저장소입니다.
 
-## 최신 버전 · 5.4.2
+## 최신 버전 · 5.5.1
 
-- [Windows Setup](https://github.com/tystarme/inLoco_release/releases/download/v5.4.2/inLoco-Setup-5.4.2.exe)
-- [Android APK](https://github.com/tystarme/inLoco_release/releases/download/v5.4.2/inLoco-5.4.2-release.apk)
+- [Windows Setup](https://github.com/tystarme/inLoco_release/releases/download/v5.5.1/inLoco-Setup-5.5.1.exe)
+- [Android APK](https://github.com/tystarme/inLoco_release/releases/download/v5.5.1/inLoco-5.5.1-release.apk)
 
 ## 릴리스 기록
 
 <!-- INLOCO_RELEASES_START -->
+<!-- INLOCO_RELEASE:5.5.1:START -->
+### inLoco 5.5.1
+
+- [Windows Setup](https://github.com/tystarme/inLoco_release/releases/download/v5.5.1/inLoco-Setup-5.5.1.exe)
+- [Android APK](https://github.com/tystarme/inLoco_release/releases/download/v5.5.1/inLoco-5.5.1-release.apk)
+
+- 폰에서 탭이 여러 개일 때 탭 줄을 손가락으로 넘기면 스크롤됩니다. 예전에는 스와이프가 탭 순서 바꾸기로 먹혀 다른 탭으로 갈 수 없었습니다. 순서를 바꾸려면 탭을 길게 누른 뒤 끕니다(마우스는 그대로 바로 끌기).
+- 동기화가 훨씬 자주 돕니다. 저장 뒤 잠시 후, 앱을 내리거나(폰 홈 버튼·창 최소화) 돌아올 때, 프로그램을 종료할 때, 새로고침 버튼을 누를 때 자동으로 동기화합니다. 예전에는 앱 시작 때 한 번뿐이었습니다.
+- 설정의 "저장 시 자동 업로드"가 "자동 동기화"로 바뀌고 기본으로 켜집니다. 직접 꺼 두었던 분은 그대로 꺼져 있습니다.
+- 종료할 때 바뀐 내용이 있으면 올리고 나갑니다(최대 10초, 건너뛰기 가능). 동기화가 겹치면 버리지 않고 끝난 뒤 한 번 더 돕니다.
+- 파일 선택 모드에 이동 버튼이 생겼습니다. 여러 노트를 고르고 폴더를 선택하면 한 번에 옮깁니다. 폰에서도 이동할 수 있습니다. 일부가 실패하면 어떤 파일이 왜 안 옮겨졌는지 보여 줍니다.
+- 드래그로 옮긴 노트가 열려 있으면 탭이 새 위치를 따라갑니다(예전엔 옮긴 탭이 미저장으로 남았습니다).
+<!-- INLOCO_RELEASE:5.5.1:END -->
+
 <!-- INLOCO_RELEASE:5.4.2:START -->
 ### inLoco 5.4.2
 
