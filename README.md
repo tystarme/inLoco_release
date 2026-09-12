@@ -2,14 +2,31 @@
 
 로컬 우선 Markdown 메모 앱 inLoco의 정식 배포 저장소입니다.
 
-## 최신 버전 · 5.2.1
+## 최신 버전 · 5.4.2
 
-- [Windows Setup](https://github.com/tystarme/inLoco_release/releases/download/v5.2.1/inLoco-Setup-5.2.1.exe)
-- [Android APK](https://github.com/tystarme/inLoco_release/releases/download/v5.2.1/inLoco-5.2.1-release.apk)
+- [Windows Setup](https://github.com/tystarme/inLoco_release/releases/download/v5.4.2/inLoco-Setup-5.4.2.exe)
+- [Android APK](https://github.com/tystarme/inLoco_release/releases/download/v5.4.2/inLoco-5.4.2-release.apk)
 
 ## 릴리스 기록
 
 <!-- INLOCO_RELEASES_START -->
+<!-- INLOCO_RELEASE:5.4.2:START -->
+### inLoco 5.4.2
+
+- [Windows Setup](https://github.com/tystarme/inLoco_release/releases/download/v5.4.2/inLoco-Setup-5.4.2.exe)
+- [Android APK](https://github.com/tystarme/inLoco_release/releases/download/v5.4.2/inLoco-5.4.2-release.apk)
+
+- 그림 문법을 ![[파일]]로 통일했습니다. Ctrl+V와 첨부 버튼이 이 문법으로 넣고, 예전 ![설명](경로)도 그대로 읽습니다.
+- 그림 바로 뒤 {…}로 폭·정렬·이름표를 지정합니다. 예: ![[그림.png]]{tag=회로도, width=0.5fr, align=left}. width는 px·mm 또는 fr(본문 폭 비율), align은 left·center·right이며 기본은 가운데 정렬입니다.
+- 이름표는 세 가지 중 편한 대로 씁니다: {tag=이름}, {머릿글: 이름}, 또는 그냥 {이름}. 참조는 \cite{이름}.
+- 수식에도 이름표를 붙입니다. $수식${equation: eq1} 또는 $$수식$${equation: eq2}처럼 닫는 기호 바로 뒤에 적습니다.
+- \cite{figure: 회로도}처럼 쓰면 이름표 글자 그대로 보이는 링크가 되고, 누르면 그 그림·수식으로 이동합니다. PDF에서도 문서 안 링크로 동작합니다.
+- PDF 내보내기에 그림이 들어갑니다. 정렬·폭·이름표가 화면과 같게 나갑니다. 예전에는 PDF에 그림이 아예 빠졌습니다.
+- 문법 도움말에 그림 첨부, 크기·정렬·이름표, \cite 항목을 추가했습니다.
+- PDF 내보내기 글자가 갑자기 작아지던 문제를 고쳤습니다. 앱을 올려도 예전 인쇄 스타일이 남아 큰 그림이 종이를 넘치면 문서 전체가 줄어들었습니다. 이제 인쇄 스타일을 매번 새로 씁니다.
+- PDF 안에서 \cite 링크를 누르면 목표보다 위 여백만큼 어긋난 곳으로 가던 것을 바로잡았습니다.
+<!-- INLOCO_RELEASE:5.4.2:END -->
+
 <!-- INLOCO_RELEASE:5.2.1:START -->
 ### inLoco 5.2.1
 
