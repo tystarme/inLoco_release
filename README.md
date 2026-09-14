@@ -2,14 +2,27 @@
 
 로컬 우선 Markdown 메모 앱 inLoco의 정식 배포 저장소입니다.
 
-## 최신 버전 · 5.5.1
+## 최신 버전 · 5.6.0
 
-- [Windows Setup](https://github.com/tystarme/inLoco_release/releases/download/v5.5.1/inLoco-Setup-5.5.1.exe)
-- [Android APK](https://github.com/tystarme/inLoco_release/releases/download/v5.5.1/inLoco-5.5.1-release.apk)
+- [Windows Setup](https://github.com/tystarme/inLoco_release/releases/download/v5.6.0/inLoco-Setup-5.6.0.exe)
+- [Android APK](https://github.com/tystarme/inLoco_release/releases/download/v5.6.0/inLoco-5.6.0-release.apk)
 
 ## 릴리스 기록
 
 <!-- INLOCO_RELEASES_START -->
+<!-- INLOCO_RELEASE:5.6.0:START -->
+### inLoco 5.6.0
+
+- [Windows Setup](https://github.com/tystarme/inLoco_release/releases/download/v5.6.0/inLoco-Setup-5.6.0.exe)
+- [Android APK](https://github.com/tystarme/inLoco_release/releases/download/v5.6.0/inLoco-5.6.0-release.apk)
+
+- 동기화 알림 팝업이 사라졌습니다. 대신 상단의 새로고침 버튼이 동기화 중에는 화살표가 돌고, 끝나면 그 옆에 ✓ 업 2 · 다운 1 같은 작은 배지가 잠깐 보입니다(실패는 !, 마우스를 올리면 사유). 무엇이 올라가고 내려왔는지는 설정의 동기화 상태·로그에서 봅니다.
+- 알림바가 화면 전체 폭으로 뜨지 않고 최대 480px로 뜹니다.
+- 폰에서 1. 목록 줄 끝에서 Enter를 쳐도 2.가 안 붙던 문제를 고쳤습니다. 한글 마지막 글자가 아직 조합 중일 때 Enter가 오면 목록 이어주기가 빠졌습니다(백스페이스 뒤에는 되던 이유). 이제 조합 중이든 소프트 키보드든 이어집니다.
+- 파일 선택 모드에서 체크한 파일들을 폴더로 끌어다 놓아도 한 번에 옮겨집니다(선택 모드에서 폴더와 루트가 드롭 대상이 됩니다). 폰은 기존 이동 버튼을 씁니다.
+- PDF 내보내기 줄간격을 0.8배까지 줄일 수 있습니다(기본 1.0).
+<!-- INLOCO_RELEASE:5.6.0:END -->
+
 <!-- INLOCO_RELEASE:5.5.1:START -->
 ### inLoco 5.5.1
 
