@@ -2,14 +2,26 @@
 
 로컬 우선 Markdown 메모 앱 inLoco의 정식 배포 저장소입니다.
 
-## 최신 버전 · 5.6.0
+## 최신 버전 · 5.6.1
 
-- [Windows Setup](https://github.com/tystarme/inLoco_release/releases/download/v5.6.0/inLoco-Setup-5.6.0.exe)
-- [Android APK](https://github.com/tystarme/inLoco_release/releases/download/v5.6.0/inLoco-5.6.0-release.apk)
+- [Windows Setup](https://github.com/tystarme/inLoco_release/releases/download/v5.6.1/inLoco-Setup-5.6.1.exe)
+- [Android APK](https://github.com/tystarme/inLoco_release/releases/download/v5.6.1/inLoco-5.6.1-release.apk)
 
 ## 릴리스 기록
 
 <!-- INLOCO_RELEASES_START -->
+<!-- INLOCO_RELEASE:5.6.1:START -->
+### inLoco 5.6.1
+
+- [Windows Setup](https://github.com/tystarme/inLoco_release/releases/download/v5.6.1/inLoco-Setup-5.6.1.exe)
+- [Android APK](https://github.com/tystarme/inLoco_release/releases/download/v5.6.1/inLoco-5.6.1-release.apk)
+
+- 다른 문서를 만들거나 오갔다가 돌아왔을 때, 탭에 남아 있던 예전 편집 내용이 최신 저장본을 덮어쓰던 문제를 고쳤습니다. 이제 탭을 떠날 때와 파일이 같을 때만 저장 안 된 편집을 되살리고, 그 사이 파일이 바뀌었으면 어느 쪽을 열지 묻습니다(기본은 최신 저장본).
+- 새 노트 만들기·닫은 탭 되살리기(Ctrl+Shift+T)로 넘어갈 때도 지금 탭의 편집 내용을 제대로 기억합니다. 예전엔 저장 안 된 편집이 여기서 사라질 수 있었습니다.
+- 문서 첫 줄 맨 앞(# 제목·- 목록 앞)에서 Enter가 안 쳐지던 문제를 고쳤습니다. 같은 자리의 Ctrl+Q(인용구)·들여쓰기도 고쳤습니다.
+- Shift+Enter, 글자를 선택한 채 Enter가 아무 일도 안 하던 문제를 고쳤습니다(PC). 이제 줄만 바꿉니다. 목록 이어주기 계산이 실패해도 Enter는 항상 줄을 바꿉니다.
+<!-- INLOCO_RELEASE:5.6.1:END -->
+
 <!-- INLOCO_RELEASE:5.6.0:START -->
 ### inLoco 5.6.0
 
