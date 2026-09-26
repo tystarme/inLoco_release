@@ -2,14 +2,24 @@
 
 로컬 우선 Markdown 메모 앱 inLoco의 정식 배포 저장소입니다.
 
-## 최신 버전 · 5.6.1
+## 최신 버전 · 5.6.2
 
-- [Windows Setup](https://github.com/tystarme/inLoco_release/releases/download/v5.6.1/inLoco-Setup-5.6.1.exe)
-- [Android APK](https://github.com/tystarme/inLoco_release/releases/download/v5.6.1/inLoco-5.6.1-release.apk)
+- [Windows Setup](https://github.com/tystarme/inLoco_release/releases/download/v5.6.2/inLoco-Setup-5.6.2.exe)
+- [Android APK](https://github.com/tystarme/inLoco_release/releases/download/v5.6.2/inLoco-5.6.2-release.apk)
 
 ## 릴리스 기록
 
 <!-- INLOCO_RELEASES_START -->
+<!-- INLOCO_RELEASE:5.6.2:START -->
+### inLoco 5.6.2
+
+- [Windows Setup](https://github.com/tystarme/inLoco_release/releases/download/v5.6.2/inLoco-Setup-5.6.2.exe)
+- [Android APK](https://github.com/tystarme/inLoco_release/releases/download/v5.6.2/inLoco-5.6.2-release.apk)
+
+- 코드·편집기 글자의 한글이 번들한 Pretendard(고딕)로 나옵니다. 예전엔 기기에 따라 시스템 고정폭 글꼴(굴림체 등)로 보이는 곳이 있었습니다(폰 편집기·동기화 기록·문법 도움말 예시).
+- 들여쓴 불릿(`  - 항목`) 바로 밑 숫자 목록 줄 끝에서 Enter를 치면 다음 번호(`2.`)가 붙지 않고 빈 줄만 생기던 문제를 고쳤습니다.
+<!-- INLOCO_RELEASE:5.6.2:END -->
+
 <!-- INLOCO_RELEASE:5.6.1:START -->
 ### inLoco 5.6.1
 
