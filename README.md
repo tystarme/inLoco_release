@@ -2,14 +2,24 @@
 
 로컬 우선 Markdown 메모 앱 inLoco의 정식 배포 저장소입니다.
 
-## 최신 버전 · 5.6.2
+## 최신 버전 · 5.6.3
 
-- [Windows Setup](https://github.com/tystarme/inLoco_release/releases/download/v5.6.2/inLoco-Setup-5.6.2.exe)
-- [Android APK](https://github.com/tystarme/inLoco_release/releases/download/v5.6.2/inLoco-5.6.2-release.apk)
+- [Windows Setup](https://github.com/tystarme/inLoco_release/releases/download/v5.6.3/inLoco-Setup-5.6.3.exe)
+- [Android APK](https://github.com/tystarme/inLoco_release/releases/download/v5.6.3/inLoco-5.6.3-release.apk)
 
 ## 릴리스 기록
 
 <!-- INLOCO_RELEASES_START -->
+<!-- INLOCO_RELEASE:5.6.3:START -->
+### inLoco 5.6.3
+
+- [Windows Setup](https://github.com/tystarme/inLoco_release/releases/download/v5.6.3/inLoco-Setup-5.6.3.exe)
+- [Android APK](https://github.com/tystarme/inLoco_release/releases/download/v5.6.3/inLoco-5.6.3-release.apk)
+
+- PDF 내보내기가 읽기 화면과 같게 백슬래시 이스케이프를 따릅니다. `A\~B\~`는 PDF에도 `A~B~`로 나오고(예전엔 `\`가 같이 찍혔습니다), `\*별표\*`·`\$달러`처럼 문법 기호 앞에 `\`를 붙인 글자도 기호만 나옵니다.
+- 물결 하나 취소선 `~본문~`도 PDF에서 취소선으로 나옵니다(읽기 화면과 동일). `10~20`처럼 짝이 없거나 공백으로 떨어진 물결은 글자 그대로입니다.
+<!-- INLOCO_RELEASE:5.6.3:END -->
+
 <!-- INLOCO_RELEASE:5.6.2:START -->
 ### inLoco 5.6.2
 
