@@ -2,14 +2,40 @@
 
 로컬 우선 Markdown 메모 앱 inLoco의 정식 배포 저장소입니다.
 
-## 최신 버전 · 5.6.3
+## 최신 버전 · 6.0.0
 
-- [Windows Setup](https://github.com/tystarme/inLoco_release/releases/download/v5.6.3/inLoco-Setup-5.6.3.exe)
-- [Android APK](https://github.com/tystarme/inLoco_release/releases/download/v5.6.3/inLoco-5.6.3-release.apk)
+- [Windows Setup](https://github.com/tystarme/inLoco_release/releases/download/v6.0.0/inLoco-Setup-6.0.0.exe)
+- [Android APK](https://github.com/tystarme/inLoco_release/releases/download/v6.0.0/inLoco-6.0.0-release.apk)
 
 ## 릴리스 기록
 
 <!-- INLOCO_RELEASES_START -->
+<!-- INLOCO_RELEASE:6.0.0:START -->
+### inLoco 6.0.0
+
+- [Windows Setup](https://github.com/tystarme/inLoco_release/releases/download/v6.0.0/inLoco-Setup-6.0.0.exe)
+- [Android APK](https://github.com/tystarme/inLoco_release/releases/download/v6.0.0/inLoco-6.0.0-release.apk)
+
+- inLoco를 새 바탕(Tauri)으로 다시 만들었습니다. 한글 입력과 화면 그리기가 더 매끄럽고, 설정·vault·동기화 연결은 그대로 이어받습니다.
+- 라이브 프리뷰가 글자마다 바로 바뀝니다(예전엔 0.4초 늦게 바뀌었습니다).
+- 엑셀 표에서 수식 칸에 수식 대신 계산값이 보입니다.
+- LaTeX 문서(MiKTeX): 그림·참고문헌 파일이 빠져 있어도 나머지를 PDF로 보여 주고 무엇이 빠졌는지 알려 줍니다. `\ref`·`\cite` 번호도 제대로 나옵니다.
+- PDF 내보내기의 "선택한 영역"은 편집기가 보일 때만 고를 수 있고, 몇 줄인지 함께 보입니다.
+- 동기화가 판정한 뒤 이 기기에서 저장한 글은 휴지통으로 보내지 않습니다. 새 기기는 서버의 vault를 골라 이어 쓸 수 있습니다.
+- 앱이 하나만 뜹니다. 파일을 더블클릭하거나 점프 목록을 눌러도 새 창 대신 떠 있는 창에서 열립니다.
+- vault 밖의 .md 파일은 vault로 등록하지 않고 그 파일만 엽니다(단일 파일 모드 — [vault로 돌아가기]).
+- 실행할 때 받은 노트가 목록에 없으면 "노트를 찾지 못했습니다"라고 알려 줍니다.
+- 점프 목록에서 드라이브 루트(D:\ 등) vault가 열리지 않던 문제를 고쳤습니다.
+- 줄이 3.1.·4.2.1.처럼 번호로 시작하면 목록 항목처럼 줄 사이를 띄웁니다(읽기·라이브·PDF).
+- 노트 머리 줄에 글자 배율(%)과 읽기 본문 폭(px)이 숫자로 보입니다. 배율 숫자를 누르면 직접 고를 수 있습니다.
+- PDF 내보내기에서 긴 수식·넓은 표는 쪽 폭에 맞게 줄이고, 코드 블록의 긴 줄은 다음 줄로 접습니다(예전엔 화면에서 옆으로 넘기던 부분이 PDF에서 잘렸습니다).
+- Windows 시작 시 자동 실행은 설치 마법사 대신 설정에서 켜고 끕니다(이전 판에서 켜 두었다면 그대로 이어집니다).
+- 업데이트한 뒤 처음 한 번은 동기화 로그인을 다시 해 주세요(이메일은 채워져 있습니다).
+- 로컬 전용 vault의 휴지통에 있던 항목도 새 판 휴지통에서 그대로 보이고 되살릴 수 있습니다.
+- 폰: 업데이트한 뒤 처음 실행하면 [vault 선택]을 눌러 '모든 파일 접근'을 허용하고 쓰던 폴더를 한 번 다시 골라 주세요. 고정·마지막 노트·동기화 연결은 그대로 이어집니다.
+- 폰: PDF 내보내기는 기기 인쇄 창으로 열립니다. 'PDF로 저장'을 고르면 파일로 저장됩니다.
+<!-- INLOCO_RELEASE:6.0.0:END -->
+
 <!-- INLOCO_RELEASE:5.6.3:START -->
 ### inLoco 5.6.3
 
