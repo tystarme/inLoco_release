@@ -2,14 +2,26 @@
 
 로컬 우선 Markdown 메모 앱 inLoco의 정식 배포 저장소입니다.
 
-## 최신 버전 · 6.0.0
+## 최신 버전 · 6.0.1
 
-- [Windows Setup](https://github.com/tystarme/inLoco_release/releases/download/v6.0.0/inLoco-Setup-6.0.0.exe)
-- [Android APK](https://github.com/tystarme/inLoco_release/releases/download/v6.0.0/inLoco-6.0.0-release.apk)
+- [Windows Setup](https://github.com/tystarme/inLoco_release/releases/download/v6.0.1/inLoco-Setup-6.0.1.exe)
+- [Android APK](https://github.com/tystarme/inLoco_release/releases/download/v6.0.1/inLoco-6.0.1-release.apk)
 
 ## 릴리스 기록
 
 <!-- INLOCO_RELEASES_START -->
+<!-- INLOCO_RELEASE:6.0.1:START -->
+### inLoco 6.0.1
+
+- [Windows Setup](https://github.com/tystarme/inLoco_release/releases/download/v6.0.1/inLoco-Setup-6.0.1.exe)
+- [Android APK](https://github.com/tystarme/inLoco_release/releases/download/v6.0.1/inLoco-6.0.1-release.apk)
+
+- 작업 표시줄에 고정해 둔 inLoco로 실행해도 아이콘이 하나 더 생기지 않습니다(이전 판에서 고정한 바로가기도 설치할 때 맞춥니다).
+- PDF를 보면서 Ctrl+휠로 확대·축소하면 노트 글자 크기까지 같이 바뀌던 문제를 고쳤습니다.
+- 들여쓴 번호 목록(1. 아래 탭으로 1. 2.)의 번호가 1·2·3·4로 이어지던 문제를 고쳤습니다.
+- 목차처럼 1.1 · 1.2 · 2.1처럼 끝 점 없이 번호로 시작하는 줄이 두 줄 이상 이어지면 목록 항목처럼 줄 사이를 띄웁니다.
+<!-- INLOCO_RELEASE:6.0.1:END -->
+
 <!-- INLOCO_RELEASE:6.0.0:START -->
 ### inLoco 6.0.0
 
