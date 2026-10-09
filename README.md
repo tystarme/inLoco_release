@@ -2,14 +2,25 @@
 
 로컬 우선 Markdown 메모 앱 inLoco의 정식 배포 저장소입니다.
 
-## 최신 버전 · 6.0.2
+## 최신 버전 · 6.0.3
 
-- [Windows Setup](https://github.com/tystarme/inLoco_release/releases/download/v6.0.2/inLoco-Setup-6.0.2.exe)
-- [Android APK](https://github.com/tystarme/inLoco_release/releases/download/v6.0.2/inLoco-6.0.2-release.apk)
+- [Windows Setup](https://github.com/tystarme/inLoco_release/releases/download/v6.0.3/inLoco-Setup-6.0.3.exe)
+- [Android APK](https://github.com/tystarme/inLoco_release/releases/download/v6.0.3/inLoco-6.0.3-release.apk)
 
 ## 릴리스 기록
 
 <!-- INLOCO_RELEASES_START -->
+<!-- INLOCO_RELEASE:6.0.3:START -->
+### inLoco 6.0.3
+
+- [Windows Setup](https://github.com/tystarme/inLoco_release/releases/download/v6.0.3/inLoco-Setup-6.0.3.exe)
+- [Android APK](https://github.com/tystarme/inLoco_release/releases/download/v6.0.3/inLoco-6.0.3-release.apk)
+
+- PC에서 vault를 여러 창으로 띄울 수 있습니다 — Vault 전환 창의 [새 창] 단추, '새 창에서 다른 폴더 열기…', Ctrl+Shift+N(빈 새 창). 점프 목록·파일 더블클릭으로 다른 vault를 열면 새 창으로 열리고, 이미 열린 vault면 그 창이 앞으로 옵니다(같은 vault는 한 창에만).
+- vault를 전환하거나 새 창으로 열면 그 vault에서 열어 두었던 탭이 다시 뜹니다.
+- 표 칸의 한글이 '문/서'처럼 글자마다 줄이 바뀌지 않습니다 — 띄어쓰기 단위로만 줄을 바꿉니다(화면·PDF).
+<!-- INLOCO_RELEASE:6.0.3:END -->
+
 <!-- INLOCO_RELEASE:6.0.2:START -->
 ### inLoco 6.0.2
 
