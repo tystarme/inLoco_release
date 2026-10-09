@@ -2,14 +2,23 @@
 
 로컬 우선 Markdown 메모 앱 inLoco의 정식 배포 저장소입니다.
 
-## 최신 버전 · 6.0.1
+## 최신 버전 · 6.0.2
 
-- [Windows Setup](https://github.com/tystarme/inLoco_release/releases/download/v6.0.1/inLoco-Setup-6.0.1.exe)
-- [Android APK](https://github.com/tystarme/inLoco_release/releases/download/v6.0.1/inLoco-6.0.1-release.apk)
+- [Windows Setup](https://github.com/tystarme/inLoco_release/releases/download/v6.0.2/inLoco-Setup-6.0.2.exe)
+- [Android APK](https://github.com/tystarme/inLoco_release/releases/download/v6.0.2/inLoco-6.0.2-release.apk)
 
 ## 릴리스 기록
 
 <!-- INLOCO_RELEASES_START -->
+<!-- INLOCO_RELEASE:6.0.2:START -->
+### inLoco 6.0.2
+
+- [Windows Setup](https://github.com/tystarme/inLoco_release/releases/download/v6.0.2/inLoco-Setup-6.0.2.exe)
+- [Android APK](https://github.com/tystarme/inLoco_release/releases/download/v6.0.2/inLoco-6.0.2-release.apk)
+
+- 탭을 바꿨다 돌아오면 읽기·라이브 화면이 보던 위치로 돌아갑니다(폰에서 노트를 오갈 때 맨 위로 가던 문제).
+<!-- INLOCO_RELEASE:6.0.2:END -->
+
 <!-- INLOCO_RELEASE:6.0.1:START -->
 ### inLoco 6.0.1
 
