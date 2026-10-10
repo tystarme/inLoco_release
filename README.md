@@ -2,14 +2,23 @@
 
 로컬 우선 Markdown 메모 앱 inLoco의 정식 배포 저장소입니다.
 
-## 최신 버전 · 6.0.3
+## 최신 버전 · 6.0.4
 
-- [Windows Setup](https://github.com/tystarme/inLoco_release/releases/download/v6.0.3/inLoco-Setup-6.0.3.exe)
-- [Android APK](https://github.com/tystarme/inLoco_release/releases/download/v6.0.3/inLoco-6.0.3-release.apk)
+- [Windows Setup](https://github.com/tystarme/inLoco_release/releases/download/v6.0.4/inLoco-Setup-6.0.4.exe)
+- [Android APK](https://github.com/tystarme/inLoco_release/releases/download/v6.0.4/inLoco-6.0.4-release.apk)
 
 ## 릴리스 기록
 
 <!-- INLOCO_RELEASES_START -->
+<!-- INLOCO_RELEASE:6.0.4:START -->
+### inLoco 6.0.4
+
+- [Windows Setup](https://github.com/tystarme/inLoco_release/releases/download/v6.0.4/inLoco-Setup-6.0.4.exe)
+- [Android APK](https://github.com/tystarme/inLoco_release/releases/download/v6.0.4/inLoco-6.0.4-release.apk)
+
+- 표가 화면보다 넓어지면 페이지 전체가 아니라 그 표만 옆으로 넘깁니다(모든 표 — 전에는 폭을 지정한 표만).
+<!-- INLOCO_RELEASE:6.0.4:END -->
+
 <!-- INLOCO_RELEASE:6.0.3:START -->
 ### inLoco 6.0.3
 
