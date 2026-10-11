@@ -2,14 +2,23 @@
 
 로컬 우선 Markdown 메모 앱 inLoco의 정식 배포 저장소입니다.
 
-## 최신 버전 · 6.0.5
+## 최신 버전 · 6.0.6
 
-- [Windows Setup](https://github.com/tystarme/inLoco_release/releases/download/v6.0.5/inLoco-Setup-6.0.5.exe)
-- [Android APK](https://github.com/tystarme/inLoco_release/releases/download/v6.0.5/inLoco-6.0.5-release.apk)
+- [Windows Setup](https://github.com/tystarme/inLoco_release/releases/download/v6.0.6/inLoco-Setup-6.0.6.exe)
+- [Android APK](https://github.com/tystarme/inLoco_release/releases/download/v6.0.6/inLoco-6.0.6-release.apk)
 
 ## 릴리스 기록
 
 <!-- INLOCO_RELEASES_START -->
+<!-- INLOCO_RELEASE:6.0.6:START -->
+### inLoco 6.0.6
+
+- [Windows Setup](https://github.com/tystarme/inLoco_release/releases/download/v6.0.6/inLoco-Setup-6.0.6.exe)
+- [Android APK](https://github.com/tystarme/inLoco_release/releases/download/v6.0.6/inLoco-6.0.6-release.apk)
+
+- vault를 연 창이 있을 때 vault 밖 문서를 열면 그 창을 바꾸지 않고 새 창에 그 문서만 띄웁니다. 이미 띄운 문서를 다시 열면 그 창을 앞으로 가져옵니다.
+<!-- INLOCO_RELEASE:6.0.6:END -->
+
 <!-- INLOCO_RELEASE:6.0.5:START -->
 ### inLoco 6.0.5
 
