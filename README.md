@@ -2,14 +2,25 @@
 
 로컬 우선 Markdown 메모 앱 inLoco의 정식 배포 저장소입니다.
 
-## 최신 버전 · 6.0.4
+## 최신 버전 · 6.0.5
 
-- [Windows Setup](https://github.com/tystarme/inLoco_release/releases/download/v6.0.4/inLoco-Setup-6.0.4.exe)
-- [Android APK](https://github.com/tystarme/inLoco_release/releases/download/v6.0.4/inLoco-6.0.4-release.apk)
+- [Windows Setup](https://github.com/tystarme/inLoco_release/releases/download/v6.0.5/inLoco-Setup-6.0.5.exe)
+- [Android APK](https://github.com/tystarme/inLoco_release/releases/download/v6.0.5/inLoco-6.0.5-release.apk)
 
 ## 릴리스 기록
 
 <!-- INLOCO_RELEASES_START -->
+<!-- INLOCO_RELEASE:6.0.5:START -->
+### inLoco 6.0.5
+
+- [Windows Setup](https://github.com/tystarme/inLoco_release/releases/download/v6.0.5/inLoco-Setup-6.0.5.exe)
+- [Android APK](https://github.com/tystarme/inLoco_release/releases/download/v6.0.5/inLoco-6.0.5-release.apk)
+
+- 폰: 라이브 화면에서 '이 위치로 이동'이 됩니다 — 길게 눌러도 메뉴가 열리고, 누른 자리로 편집기 커서가 갑니다.
+- 편집·라이브·읽기 모드를 바꿀 때 보던 자리를 더 잘 지킵니다 — 커서를 두고 스크롤만 했으면 보던 화면 기준으로, 렌더가 늦게 그려져도 다시 맞춥니다. 폰은 읽기 → 편집 때 키보드를 띄우지 않습니다(탭하면 바로 편집).
+- 탭을 바꿨다 돌아올 때 큰 노트도 보던 위치로 돌아갑니다.
+<!-- INLOCO_RELEASE:6.0.5:END -->
+
 <!-- INLOCO_RELEASE:6.0.4:START -->
 ### inLoco 6.0.4
 
