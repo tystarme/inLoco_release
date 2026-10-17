@@ -2,14 +2,24 @@
 
 로컬 우선 Markdown 메모 앱 inLoco의 정식 배포 저장소입니다.
 
-## 최신 버전 · 6.3.2
+## 최신 버전 · 6.3.3
 
-- [Windows Setup](https://github.com/tystarme/inLoco_release/releases/download/v6.3.2/inLoco-Setup-6.3.2.exe)
-- [Android APK](https://github.com/tystarme/inLoco_release/releases/download/v6.3.2/inLoco-6.3.2-release.apk)
+- [Windows Setup](https://github.com/tystarme/inLoco_release/releases/download/v6.3.3/inLoco-Setup-6.3.3.exe)
+- [Android APK](https://github.com/tystarme/inLoco_release/releases/download/v6.3.3/inLoco-6.3.3-release.apk)
 
 ## 릴리스 기록
 
 <!-- INLOCO_RELEASES_START -->
+<!-- INLOCO_RELEASE:6.3.3:START -->
+### inLoco 6.3.3
+
+- [Windows Setup](https://github.com/tystarme/inLoco_release/releases/download/v6.3.3/inLoco-Setup-6.3.3.exe)
+- [Android APK](https://github.com/tystarme/inLoco_release/releases/download/v6.3.3/inLoco-6.3.3-release.apk)
+
+- 필기 노트 편집에서 글머리 항목 끝에 Enter를 치면 새 항목으로 넘어가는 데 0.3초쯤 걸리던 문제를 고쳤습니다(이제 거의 바로). 새 항목은 지금 고치는 블록에 이어져, 쪽 전체를 다시 그리지 않습니다.
+- 필기 노트 편집에서 Enter로 만든 빈 글머리 항목에 한글이 쳐지지 않던(줄 맨 앞에 들어가 깨지던) 문제를 고쳤습니다.
+<!-- INLOCO_RELEASE:6.3.3:END -->
+
 <!-- INLOCO_RELEASE:6.3.2:START -->
 ### inLoco 6.3.2
 
