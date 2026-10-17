@@ -2,14 +2,25 @@
 
 로컬 우선 Markdown 메모 앱 inLoco의 정식 배포 저장소입니다.
 
-## 최신 버전 · 6.3.0
+## 최신 버전 · 6.3.2
 
-- [Windows Setup](https://github.com/tystarme/inLoco_release/releases/download/v6.3.0/inLoco-Setup-6.3.0.exe)
-- [Android APK](https://github.com/tystarme/inLoco_release/releases/download/v6.3.0/inLoco-6.3.0-release.apk)
+- [Windows Setup](https://github.com/tystarme/inLoco_release/releases/download/v6.3.2/inLoco-Setup-6.3.2.exe)
+- [Android APK](https://github.com/tystarme/inLoco_release/releases/download/v6.3.2/inLoco-6.3.2-release.apk)
 
 ## 릴리스 기록
 
 <!-- INLOCO_RELEASES_START -->
+<!-- INLOCO_RELEASE:6.3.2:START -->
+### inLoco 6.3.2
+
+- [Windows Setup](https://github.com/tystarme/inLoco_release/releases/download/v6.3.2/inLoco-Setup-6.3.2.exe)
+- [Android APK](https://github.com/tystarme/inLoco_release/releases/download/v6.3.2/inLoco-6.3.2-release.apk)
+
+- vault 밖에서 연 노트(.md·필기 노트)에 그림이 보이지 않던 문제를 고쳤습니다. 이제 그 파일이 든 폴더(와 그 아래 attachments 등)의 그림을 읽어 보여 주고, PDF로 내보낼 때도 들어갑니다. 안전을 위해 그 폴더 아래의 그림 파일만, 읽기만 합니다(20MB가 넘는 그림은 읽지 않습니다).
+- 필기 노트에서 마지막 쪽 뒤로 빈 화면이 한참 더 스크롤되던 문제를 고쳤습니다(쪽을 나누려고 숨겨 둔 계산용 영역이 스크롤 길이에 들어가 있었습니다).
+- 필기 노트에서 편집·나란히·읽기 모드를 바꾸면 보던 자리를 잃거나, 엉뚱한 쪽·빈 곳으로 튀던 문제를 고쳤습니다. 이제 모드를 바꿔도 보던 블록 그대로이고, 나란히 모드로 들어가면 왼쪽 편집기도 같은 자리로 갑니다.
+<!-- INLOCO_RELEASE:6.3.2:END -->
+
 <!-- INLOCO_RELEASE:6.3.0:START -->
 ### inLoco 6.3.0
 
