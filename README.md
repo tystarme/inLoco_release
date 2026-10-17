@@ -2,14 +2,23 @@
 
 로컬 우선 Markdown 메모 앱 inLoco의 정식 배포 저장소입니다.
 
-## 최신 버전 · 6.3.3
+## 최신 버전 · 6.3.4
 
-- [Windows Setup](https://github.com/tystarme/inLoco_release/releases/download/v6.3.3/inLoco-Setup-6.3.3.exe)
-- [Android APK](https://github.com/tystarme/inLoco_release/releases/download/v6.3.3/inLoco-6.3.3-release.apk)
+- [Windows Setup](https://github.com/tystarme/inLoco_release/releases/download/v6.3.4/inLoco-Setup-6.3.4.exe)
+- [Android APK](https://github.com/tystarme/inLoco_release/releases/download/v6.3.4/inLoco-6.3.4-release.apk)
 
 ## 릴리스 기록
 
 <!-- INLOCO_RELEASES_START -->
+<!-- INLOCO_RELEASE:6.3.4:START -->
+### inLoco 6.3.4
+
+- [Windows Setup](https://github.com/tystarme/inLoco_release/releases/download/v6.3.4/inLoco-Setup-6.3.4.exe)
+- [Android APK](https://github.com/tystarme/inLoco_release/releases/download/v6.3.4/inLoco-6.3.4-release.apk)
+
+- 편집기에서 스크롤바를 잡고 끌면 문서가 마우스를 못 따라가던(마우스를 끝까지 내려도 문서는 중간쯤에 머물던) 문제를 고쳤습니다. 화면 밖 내용의 높이를 미리 맞게 재 두어 스크롤하는 동안 문서 길이가 늘지 않고, 막대를 끄는 동안 마우스 움직임을 놓치지 않습니다(편집·나란히 보기 모두).
+<!-- INLOCO_RELEASE:6.3.4:END -->
+
 <!-- INLOCO_RELEASE:6.3.3:START -->
 ### inLoco 6.3.3
 
