@@ -2,14 +2,24 @@
 
 로컬 우선 Markdown 메모 앱 inLoco의 정식 배포 저장소입니다.
 
-## 최신 버전 · 6.3.4
+## 최신 버전 · 6.3.5
 
-- [Windows Setup](https://github.com/tystarme/inLoco_release/releases/download/v6.3.4/inLoco-Setup-6.3.4.exe)
-- [Android APK](https://github.com/tystarme/inLoco_release/releases/download/v6.3.4/inLoco-6.3.4-release.apk)
+- [Windows Setup](https://github.com/tystarme/inLoco_release/releases/download/v6.3.5/inLoco-Setup-6.3.5.exe)
+- [Android APK](https://github.com/tystarme/inLoco_release/releases/download/v6.3.5/inLoco-6.3.5-release.apk)
 
 ## 릴리스 기록
 
 <!-- INLOCO_RELEASES_START -->
+<!-- INLOCO_RELEASE:6.3.5:START -->
+### inLoco 6.3.5
+
+- [Windows Setup](https://github.com/tystarme/inLoco_release/releases/download/v6.3.5/inLoco-Setup-6.3.5.exe)
+- [Android APK](https://github.com/tystarme/inLoco_release/releases/download/v6.3.5/inLoco-6.3.5-release.apk)
+
+- 필기 노트 편집에서 글머리 항목·문단 여러 개에 걸쳐 고를 수 있습니다. 누른 채 아래·위로 끌거나 Shift+↑↓로 넘어가면 같은 단 안의 블록까지 함께 열려 고른 곳이 이어집니다(Shift+Ctrl+Home/End는 그 단 끝까지). 고른 글을 지우거나 바꾸면 한 번에 됩니다. 단·쪽이 바뀌는 곳과 수식·표·그림·코드 블록 앞에서는 멈춥니다.
+- 필기 노트 편집에서 Enter로 만든 빈 글머리 항목에 한글을 치면 조합 중인 글자가 보이지 않던 문제를 고쳤습니다.
+<!-- INLOCO_RELEASE:6.3.5:END -->
+
 <!-- INLOCO_RELEASE:6.3.4:START -->
 ### inLoco 6.3.4
 
