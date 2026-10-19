@@ -2,14 +2,26 @@
 
 로컬 우선 Markdown 메모 앱 inLoco의 정식 배포 저장소입니다.
 
-## 최신 버전 · 6.3.5
+## 최신 버전 · 6.4.0
 
-- [Windows Setup](https://github.com/tystarme/inLoco_release/releases/download/v6.3.5/inLoco-Setup-6.3.5.exe)
-- [Android APK](https://github.com/tystarme/inLoco_release/releases/download/v6.3.5/inLoco-6.3.5-release.apk)
+- [Windows Setup](https://github.com/tystarme/inLoco_release/releases/download/v6.4.0/inLoco-Setup-6.4.0.exe)
+- [Android APK](https://github.com/tystarme/inLoco_release/releases/download/v6.4.0/inLoco-6.4.0-release.apk)
 
 ## 릴리스 기록
 
 <!-- INLOCO_RELEASES_START -->
+<!-- INLOCO_RELEASE:6.4.0:START -->
+### inLoco 6.4.0
+
+- [Windows Setup](https://github.com/tystarme/inLoco_release/releases/download/v6.4.0/inLoco-Setup-6.4.0.exe)
+- [Android APK](https://github.com/tystarme/inLoco_release/releases/download/v6.4.0/inLoco-6.4.0-release.apk)
+
+- 인용·콜아웃 안의 접기(`> - {toggle:close} 제목`)도 접히고 펼쳐집니다. 노션에서 가져온 콜아웃 안 토글이 그대로 동작합니다(중첩 인용·인용 안 제목 접기도).
+- 편집 모드의 글 모양 보기에서, 번호 목록 항목 바로 아래 붙은 콜아웃을 따로 나눕니다. 전에는 목록과 콜아웃이 이어진 절 전체가 한 덩어리라 한 곳을 고쳐도 통째로 원문으로 바뀌었습니다.
+- 필기 노트 편집에서 인용·콜아웃은 쪽 모양을 그대로 두고 그 아래 상자에서 고칩니다. 전에는 인용 안을 위아래로 옮길 때 쪽이 저절로 다시 흐르며 바뀌고 쪽 밖으로 밀려나기도 했습니다.
+- 필기 노트 쪽 화면의 접기 단추를 누르면 실제로 접히고 펼쳐집니다(전에는 단추만 보이고 반응이 없었고, 목록 항목의 접기는 접기로 읽히지 않았습니다).
+<!-- INLOCO_RELEASE:6.4.0:END -->
+
 <!-- INLOCO_RELEASE:6.3.5:START -->
 ### inLoco 6.3.5
 
