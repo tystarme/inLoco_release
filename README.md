@@ -2,14 +2,30 @@
 
 로컬 우선 Markdown 메모 앱 inLoco의 정식 배포 저장소입니다.
 
-## 최신 버전 · 6.4.0
+## 최신 버전 · 6.4.3
 
-- [Windows Setup](https://github.com/tystarme/inLoco_release/releases/download/v6.4.0/inLoco-Setup-6.4.0.exe)
-- [Android APK](https://github.com/tystarme/inLoco_release/releases/download/v6.4.0/inLoco-6.4.0-release.apk)
+- [Windows Setup](https://github.com/tystarme/inLoco_release/releases/download/v6.4.3/inLoco-Setup-6.4.3.exe)
+- [Android APK](https://github.com/tystarme/inLoco_release/releases/download/v6.4.3/inLoco-6.4.3-release.apk)
 
 ## 릴리스 기록
 
 <!-- INLOCO_RELEASES_START -->
+<!-- INLOCO_RELEASE:6.4.3:START -->
+### inLoco 6.4.3
+
+- [Windows Setup](https://github.com/tystarme/inLoco_release/releases/download/v6.4.3/inLoco-Setup-6.4.3.exe)
+- [Android APK](https://github.com/tystarme/inLoco_release/releases/download/v6.4.3/inLoco-6.4.3-release.apk)
+
+- 필기 노트 편집: 글이 있는 글머리 항목의 글 맨 앞(점 바로 뒤)에서 한글을 칠 때, 조합 중인 글자가 보이지 않던 것을 고쳤습니다.
+- 탭을 오가면 보던 자리가 맨 위나 엉뚱한 자리로 가던 것을 고쳤습니다(편집기 · 필기 노트 편집 보기 · 그리는 데 오래 걸리는 노트).
+- 필기 노트: 따로 떼어 쓴 블록 수식(`$$…$$`)을 본문보다 크게(1.2배) 그립니다. 단보다 길면 본문 크기까지만 줄이고, 그래도 넘치면 `=`·`+` 뒤에서 다음 줄로 넘깁니다(쪽에 가로 스크롤 막대가 생기지 않습니다).
+- 필기 노트: 본문 속 수식(`$…$`)을 본문 글자와 같은 크기로 키웠습니다(전에는 0.82배).
+- 필기 노트 편집: 쪽 끝 글에서 → · ↓를 누르면 `--- 쪽 ---` 나누기 원문이 그 자리에 튀어나오던 것을 고쳤습니다. 커서는 나누기 줄을 건너 다음 쪽 글로 갑니다.
+- 필기 노트 편집: 빈 줄에서 Enter를 치면 그 줄에 `\\`를 자동으로 넣어, 가운데 만든 빈 줄이 편집을 떠나도 쪽에 빈 칸 한 줄로 남습니다. 그 빈 칸에 쓰기 시작하면 `\\`는 저절로 걷히고 그 자리에 글이 들어갑니다.
+- 필기 노트 편집: 글머리 항목에 커서를 두면 그 항목 밑에 빈 줄이 하나 생기던 것을 고쳤습니다.
+- 필기 노트 편집: 글머리 줄 끝 오른쪽 빈 곳이나 블록 사이 틈을 누르면 단 맨 끝에 새 줄이 생기던 것을 고쳤습니다. 이제 그 높이의 줄 끝으로 커서가 갑니다.
+<!-- INLOCO_RELEASE:6.4.3:END -->
+
 <!-- INLOCO_RELEASE:6.4.0:START -->
 ### inLoco 6.4.0
 
