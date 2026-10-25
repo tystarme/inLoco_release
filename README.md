@@ -2,14 +2,23 @@
 
 로컬 우선 Markdown 메모 앱 inLoco의 정식 배포 저장소입니다.
 
-## 최신 버전 · 6.4.4
+## 최신 버전 · 6.4.5
 
-- [Windows Setup](https://github.com/tystarme/inLoco_release/releases/download/v6.4.4/inLoco-Setup-6.4.4.exe)
-- [Android APK](https://github.com/tystarme/inLoco_release/releases/download/v6.4.4/inLoco-6.4.4-release.apk)
+- [Windows Setup](https://github.com/tystarme/inLoco_release/releases/download/v6.4.5/inLoco-Setup-6.4.5.exe)
+- [Android APK](https://github.com/tystarme/inLoco_release/releases/download/v6.4.5/inLoco-6.4.5-release.apk)
 
 ## 릴리스 기록
 
 <!-- INLOCO_RELEASES_START -->
+<!-- INLOCO_RELEASE:6.4.5:START -->
+### inLoco 6.4.5
+
+- [Windows Setup](https://github.com/tystarme/inLoco_release/releases/download/v6.4.5/inLoco-Setup-6.4.5.exe)
+- [Android APK](https://github.com/tystarme/inLoco_release/releases/download/v6.4.5/inLoco-6.4.5-release.apk)
+
+- 찾기: 같은 줄(같은 문단)에 찾은 글이 여럿 있을 때, 다음 찾기(Enter)를 눌러도 주황 '지금 찾은 곳' 표시가 그 줄의 첫 번째에 머물던 것을 고쳤습니다. 이제 차례대로 옮겨 갑니다(필기 노트 · 읽기 화면).
+<!-- INLOCO_RELEASE:6.4.5:END -->
+
 <!-- INLOCO_RELEASE:6.4.4:START -->
 ### inLoco 6.4.4
 
