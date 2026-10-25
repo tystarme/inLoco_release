@@ -2,14 +2,25 @@
 
 로컬 우선 Markdown 메모 앱 inLoco의 정식 배포 저장소입니다.
 
-## 최신 버전 · 6.4.3
+## 최신 버전 · 6.4.4
 
-- [Windows Setup](https://github.com/tystarme/inLoco_release/releases/download/v6.4.3/inLoco-Setup-6.4.3.exe)
-- [Android APK](https://github.com/tystarme/inLoco_release/releases/download/v6.4.3/inLoco-6.4.3-release.apk)
+- [Windows Setup](https://github.com/tystarme/inLoco_release/releases/download/v6.4.4/inLoco-Setup-6.4.4.exe)
+- [Android APK](https://github.com/tystarme/inLoco_release/releases/download/v6.4.4/inLoco-6.4.4-release.apk)
 
 ## 릴리스 기록
 
 <!-- INLOCO_RELEASES_START -->
+<!-- INLOCO_RELEASE:6.4.4:START -->
+### inLoco 6.4.4
+
+- [Windows Setup](https://github.com/tystarme/inLoco_release/releases/download/v6.4.4/inLoco-Setup-6.4.4.exe)
+- [Android APK](https://github.com/tystarme/inLoco_release/releases/download/v6.4.4/inLoco-6.4.4-release.apk)
+
+- 필기 노트 찾기: 쪽 화면에도 찾은 글을 칠하고, 지금 찾은 곳은 주황으로 표시합니다. 다음 찾기(Enter)를 누르면 읽기 · 나란히 · 편집 어느 보기에서나 쪽이 그 자리로 갑니다(전에는 칠하지 않았고, 편집 보기에서는 움직이지 않거나 엉뚱한 곳으로 갔습니다).
+- 찾기에 `[^`(또는 `[^2]`)를 넣으면 화면의 각주 번호(위첨자 숫자)를 칠합니다.
+- 읽기 화면 찾기에도 지금 찾은 곳을 주황으로 표시합니다.
+<!-- INLOCO_RELEASE:6.4.4:END -->
+
 <!-- INLOCO_RELEASE:6.4.3:START -->
 ### inLoco 6.4.3
 
