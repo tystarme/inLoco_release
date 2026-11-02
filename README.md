@@ -2,14 +2,25 @@
 
 로컬 우선 Markdown 메모 앱 inLoco의 정식 배포 저장소입니다.
 
-## 최신 버전 · 6.4.5
+## 최신 버전 · 6.4.6
 
-- [Windows Setup](https://github.com/tystarme/inLoco_release/releases/download/v6.4.5/inLoco-Setup-6.4.5.exe)
-- [Android APK](https://github.com/tystarme/inLoco_release/releases/download/v6.4.5/inLoco-6.4.5-release.apk)
+- [Windows Setup](https://github.com/tystarme/inLoco_release/releases/download/v6.4.6/inLoco-Setup-6.4.6.exe)
+- [Android APK](https://github.com/tystarme/inLoco_release/releases/download/v6.4.6/inLoco-6.4.6-release.apk)
 
 ## 릴리스 기록
 
 <!-- INLOCO_RELEASES_START -->
+<!-- INLOCO_RELEASE:6.4.6:START -->
+### inLoco 6.4.6
+
+- [Windows Setup](https://github.com/tystarme/inLoco_release/releases/download/v6.4.6/inLoco-Setup-6.4.6.exe)
+- [Android APK](https://github.com/tystarme/inLoco_release/releases/download/v6.4.6/inLoco-6.4.6-release.apk)
+
+- 숫자 목록: 중간 번호를 직접 바꿔 두면(예: 1. 2. 10. 11.) 다음 Enter나 지우기 때 원래 번호로 되돌아가던 것을 고쳤습니다. 이제 직접 정한 번호는 그대로 남고, 자동 번호 매기기는 그 앞에서 멈춥니다.
+- 숫자 목록: 번호 숫자를 고치면 그 아래 이어진 항목이 따라 바뀝니다(3을 10으로 바꾸면 아래가 11, 12…). 위 항목은 그대로입니다. 다시 이어지는 번호로 고치면 한 목록으로 합쳐집니다.
+- 읽기 화면 · 인쇄: 목록 중간에 직접 정한 번호가 원문대로 보입니다(예전에는 첫 번호부터 이어 세어 1 · 2 · 3 · 4로 보였습니다). 모두 1.로 쓴 목록은 예전처럼 1 · 2 · 3으로 보입니다.
+<!-- INLOCO_RELEASE:6.4.6:END -->
+
 <!-- INLOCO_RELEASE:6.4.5:START -->
 ### inLoco 6.4.5
 
