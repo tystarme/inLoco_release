@@ -2,14 +2,25 @@
 
 로컬 우선 Markdown 메모 앱 inLoco의 정식 배포 저장소입니다.
 
-## 최신 버전 · 6.4.6
+## 최신 버전 · 6.5.0
 
-- [Windows Setup](https://github.com/tystarme/inLoco_release/releases/download/v6.4.6/inLoco-Setup-6.4.6.exe)
-- [Android APK](https://github.com/tystarme/inLoco_release/releases/download/v6.4.6/inLoco-6.4.6-release.apk)
+- [Windows Setup](https://github.com/tystarme/inLoco_release/releases/download/v6.5.0/inLoco-Setup-6.5.0.exe)
+- [Android APK](https://github.com/tystarme/inLoco_release/releases/download/v6.5.0/inLoco-6.5.0-release.apk)
 
 ## 릴리스 기록
 
 <!-- INLOCO_RELEASES_START -->
+<!-- INLOCO_RELEASE:6.5.0:START -->
+### inLoco 6.5.0
+
+- [Windows Setup](https://github.com/tystarme/inLoco_release/releases/download/v6.5.0/inLoco-Setup-6.5.0.exe)
+- [Android APK](https://github.com/tystarme/inLoco_release/releases/download/v6.5.0/inLoco-6.5.0-release.apk)
+
+- 쪽 나눔: \newpage 한 줄을 쓰면 PDF로 내보낼 때 그 자리에서 다음 쪽으로 넘어갑니다(\pagebreak도 같습니다). 화면에는 '쪽 나눔' 점선으로 보이고 종이에는 찍히지 않습니다. 필기 노트에서는 --- 쪽 --- 과 같고, LaTeX · Pandoc과 같은 뜻이라 다른 도구에서도 통합니다.
+- 찾기: 다음 찾기(Enter)를 눌러도 표 한 줄의 둘째 · 셋째 칸이나 필기 노트의 다른 단으로 '지금 찾은 곳' 표시가 잘 넘어가지 않던 것을 고쳤습니다. 찾은 자리의 앞뒤 글을 견주어 정확한 곳을 칠합니다.
+- 찾기: 긴 문단 안에서 찾은 곳이 칠해지기만 하고 화면 밖에 있던 것을 고쳤습니다. 이제 칠한 자리가 보이도록 스크롤합니다.
+<!-- INLOCO_RELEASE:6.5.0:END -->
+
 <!-- INLOCO_RELEASE:6.4.6:START -->
 ### inLoco 6.4.6
 
