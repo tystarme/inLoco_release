@@ -2,14 +2,24 @@
 
 로컬 우선 Markdown 메모 앱 inLoco의 정식 배포 저장소입니다.
 
-## 최신 버전 · 6.5.0
+## 최신 버전 · 6.5.1
 
-- [Windows Setup](https://github.com/tystarme/inLoco_release/releases/download/v6.5.0/inLoco-Setup-6.5.0.exe)
-- [Android APK](https://github.com/tystarme/inLoco_release/releases/download/v6.5.0/inLoco-6.5.0-release.apk)
+- [Windows Setup](https://github.com/tystarme/inLoco_release/releases/download/v6.5.1/inLoco-Setup-6.5.1.exe)
+- [Android APK](https://github.com/tystarme/inLoco_release/releases/download/v6.5.1/inLoco-6.5.1-release.apk)
 
 ## 릴리스 기록
 
 <!-- INLOCO_RELEASES_START -->
+<!-- INLOCO_RELEASE:6.5.1:START -->
+### inLoco 6.5.1
+
+- [Windows Setup](https://github.com/tystarme/inLoco_release/releases/download/v6.5.1/inLoco-Setup-6.5.1.exe)
+- [Android APK](https://github.com/tystarme/inLoco_release/releases/download/v6.5.1/inLoco-6.5.1-release.apk)
+
+- 그림: 그림을 절대 경로(예: ![[D:\...\그림_03.png]])로 넣으면 그 파일이 vault 안에 있어도 '이미지 없음'으로 나오던 것을 고쳤습니다. 이제 vault 안 파일이면 읽기 화면 · 라이브 · PDF 내보내기 모두에서 보입니다. vault 밖 파일은 예전처럼 읽지 않습니다.
+- 첨부 정리: 절대 경로로 넣은 그림도 '노트가 쓰는 그림'으로 셉니다(전에는 쓰지 않는 첨부로 볼 수 있었습니다).
+<!-- INLOCO_RELEASE:6.5.1:END -->
+
 <!-- INLOCO_RELEASE:6.5.0:START -->
 ### inLoco 6.5.0
 
